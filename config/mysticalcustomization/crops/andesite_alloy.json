@@ -1,0 +1,13 @@
+{
+    "name": "Aleacion De Andesita",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "create:andesite_alloy_block"
+    },
+    "color": "90908d",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot" 
+     }
+  }

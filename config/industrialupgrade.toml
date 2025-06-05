@@ -1,0 +1,605 @@
+#general
+"Tick update energy system" = 20
+#general
+"Tick transfer energy" = 1
+#Configuration of reactor`s rods
+Uran233_Cells = 5000
+#Configuration of reactor`s rods
+Uran233_Heat = 1
+#Configuration of reactor`s rods
+Uran233_Power = 3.0
+#Configuration spectral instruments
+max_energy = 50000000
+#Configuration spectral instruments
+"transfer energy" = 5000
+#UltimateDrill
+energyPerOperation = 160
+#Configuration spectral instruments
+energyPerbigHolePowerOperation = 370
+#Improved NanoArmor
+NanoHelmet = 1.0E7
+#Improved NanoArmor
+NanoBodyarmor = 3.0E7
+#Improved NanoArmor
+NanoLeggings = 1.0E7
+#Improved NanoArmor
+NanoBoots = 1.0E7
+#Improved NanoArmor
+NanoTransfer = 5000.0
+#Improved NanoArmor
+NanoTier = 5
+#Configuration of reactor`s rods
+Einsteinium_Cells = 25000
+#Configuration of reactor`s rods
+Einsteinium_Heat = 4
+#Configuration of reactor`s rods
+Einsteinium_Power = 23.0
+#Configuration of reactor`s rods
+Berkelium_Cells = 22500
+#Configuration of reactor`s rods
+Berkelium_Heat = 3
+#Configuration of reactor`s rods
+Berkelium_Power = 20.0
+#Configuration of reactor`s rods
+Mendelevium_Cells = 30000
+#Configuration of reactor`s rods
+Mendelevium_Heat = 4
+#Configuration of reactor`s rods
+Mendelevium_Power = 26.0
+#Configuration of reactor`s rods
+California_Cells = 20000
+#Configuration of reactor`s rods
+California_Heat = 3
+#Configuration of reactor`s rods
+California_Power = 18.0
+#Configuration of reactor`s rods
+Curium_Cells = 8000
+#Configuration of reactor`s rods
+Curium_Heat = 2
+#Configuration of reactor`s rods
+Curium_Power = 9.5
+#Configuration of reactor`s rods
+Neptunium_Cells = 15000
+#Configuration of reactor`s rods
+Neptunium_Heat = 1
+#Configuration of reactor`s rods
+Neptunium_Power = 3.5
+#Configuration of reactor`s rods
+Americium_Cells = 5000
+#Configuration of reactor`s rods
+Americium_Heat = 1
+#Configuration of reactor`s rods
+Americium_Power = 4.5
+#MultiMatter
+amplifierSlot = true
+#Energy Bow
+"Nano Transfer energy" = 5000
+#Energy Bow
+"Quantum Transfer energy" = 25000
+#Energy Bow
+"Spectral Transfer energy" = 50000
+#Energy Bow
+"Spectral Tier" = 4
+#Energy Bow
+"Quantum Tier" = 3
+#Energy Bow
+"Nano Tier" = 2
+#Energy Bow
+"Nano MaxEnergy" = 50000
+#Energy Bow
+"Quantum MaxEnergy" = 80000
+#Energy Bow
+"Spectral MaxEnergy" = 150000
+#Configuration Energy storages
+Quarkstorage = 4.096E11
+#Configuration Energy storages
+Quarkoutput = 6.1988864E7
+#Configuration Energy storages
+Quarktier = 11.0
+#Configuration Energy storages
+Gravitonstorage = 1.024E11
+#Configuration Energy storages
+Gravitonoutput = 1.5497216E7
+#Configuration Energy storages
+Gravitontier = 10.0
+#Configuration Energy storages
+Hadronstorage = 2.56E10
+#Configuration Energy storages
+Hadronoutput = 3874304.0
+#Configuration Energy storages
+Hadrontier = 9.0
+#Configuration Energy storages
+Barionstorage = 6.4E9
+#Configuration Energy storages
+Barionoutput = 968576.0
+#Configuration Energy storages
+Bariontier = 8.0
+#Configuration Energy storages
+Perfectstorage = 1.6E9
+#Configuration Energy storages
+Perfectoutput = 242144.0
+#Configuration Energy storages
+Perfecttier = 7.0
+#Basic Mechanisms
+"exp storage" = 500
+#Quantum Quarry
+"energy consume in QE (1 QE = 16 EF)" = 25000
+#general
+"coefficient rf" = 4
+#Crafts Molecular Transformer
+"Wither Skeleton skull" = 4000000.0
+#Crafts Molecular Transformer
+"Nether Star" = 2.5E8
+#Crafts Molecular Transformer
+"Iridium Ore" = 1.0E7
+#Crafts Molecular Transformer
+Proton = 1.55E7
+#Crafts Molecular Transformer
+"Iridium ingot" = 2500000.0
+#Crafts Molecular Transformer
+"Photon ingot" = 1.2E7
+#Crafts Molecular Transformer
+Gunpowder = 70000.0
+#Crafts Molecular Transformer
+Gravel = 45000.0
+#Crafts Molecular Transformer
+Diamond = 1000000.0
+#Crafts Molecular Transformer
+"Nickel ingot" = 450000.0
+#Crafts Molecular Transformer
+"Gold ingot" = 450000.0
+#Crafts Molecular Transformer
+"Silver ingot" = 800000.0
+#Crafts Molecular Transformer
+"Tungsten ingot" = 700000.0
+#Crafts Molecular Transformer
+"Spinel ingot" = 800000.0
+#Crafts Molecular Transformer
+"Mikhalov ingot" = 900000.0
+#Crafts Molecular Transformer
+"Chromium ingot" = 600000.0
+#Crafts Molecular Transformer
+"Platium ingot" = 800000.0
+#Crafts Molecular Transformer
+"Advanced ingot" = 1500.0
+#Crafts Molecular Transformer
+"Hybrid core" = 11720.0
+#Crafts Molecular Transformer
+"Ultimate core" = 60000.0
+#Crafts Molecular Transformer
+"Quantum core" = 300000.0
+#Crafts Molecular Transformer
+"Spectral core" = 1500000.0
+#Crafts Molecular Transformer
+"Proton core" = 7500000.0
+#Crafts Molecular Transformer
+"Singular core" = 4.5E7
+#Crafts Molecular Transformer
+"Diffraction core" = 1.8E8
+#Crafts Molecular Transformer
+"Photnic core" = 9.0E8
+#Crafts Molecular Transformer
+"Neutron Core" = 2.7E9
+#Crafts Molecular Transformer
+"Barion Core" = 4.5E9
+#Crafts Molecular Transformer
+"Hadron Core" = 9.0E9
+#Crafts Molecular Transformer
+"Graviton Core" = 1.2E10
+#Crafts Molecular Transformer
+"Kvark Core" = 2.1E10
+#Crafts Molecular Transformer
+"Sun lense" = 2.5E7
+#Crafts Molecular Transformer
+"Rain lense" = 2.5E7
+#Crafts Molecular Transformer
+"Nether lense" = 2.5E7
+#Crafts Molecular Transformer
+"Night lense" = 2.5E7
+#Crafts Molecular Transformer
+"Earth lense" = 2.5E7
+#Crafts Molecular Transformer
+"End lense" = 2.5E7
+#Crafts Molecular Transformer
+"Aer lense" = 2.5E7
+#Crafts Molecular Transformer
+Photon = 1450000.0
+#Crafts Molecular Transformer
+"Magnesium ingot" = 700000.0
+#Crafts Molecular Transformer
+"Caravky ingot" = 900000.0
+#Crafts Molecular Transformer
+"Iridium ingot(from Iridium Ore IUCore)" = 50000.0
+#general
+"Disable Update Check " = false
+#general
+"Enable prompt about information a panel" = true
+#Solid Matter Generator Storage
+"Matter Generator Storage" = 5.0E7
+#Transformer mode
+"Transformer mode" = true
+#spawn ore
+"Spawn Thorium Ore" = true
+#UltimateDrill
+"Mode 0 efficiency" = 80
+#UltimateDrill
+"Mode 1 efficiency" = 60
+#UltimateDrill
+"Mode 2 efficiency" = 60
+#UltimateDrill
+"Mode 3 efficiency" = 60
+#UltimateDrill
+"Mode 4 efficiency" = 60
+#UltimateDrill
+maxCharge = 15000000
+#UltimateDrill
+tier = 2
+#UltimateDrill
+"transfer Limit" = 500
+#UltimateDrill
+energyPerLowOperation = 80
+#UltimateDrill
+"energyPerBigHolesOperation (3x3)" = 300
+#UltimateDrill
+"energyPerUltraBigHolesOperation (5x5)" = 500
+#UltimateDrill
+"energyPerUltraBigHolesOperation (7x7)" = 700
+#general
+"Maximum amount of ore in a vein" = 20000
+#Transformer mode
+"unchecking the tier" = false
+#Transformer mode
+"unlimiting the conduction of energy in the cable" = false
+#Transformer mode
+"Enable explosion from mechanisms is on (if enable transformer mode) " = true
+#Transformer mode
+"Enable losing in cables is on (if enable transformer mode) " = true
+#Quantum Saber
+"QuantumSaber Damage Active" = 40
+#Quantum Saber
+"QuantumSaber Damage Not Active" = 8
+#Spectral Saber
+"SpectralSaber max Charge" = 600000
+#Spectral Saber
+"SpectralSaber transfer Limit" = 40000
+#Quantum Saber
+"SpectralSaber tier" = 4
+#Neutronium generator
+"Consumes energy to make 1 mb neutronim" = 1.625E7
+#Spectral Saber
+"SpectralSaber Damage Active" = 60
+#Spectral Saber
+"SpectralSaber Damage Not Active" = 12
+#Configuration Energy storages
+"Improved denergy transfer Et/t" = 8192
+#Configuration Energy storages
+"Improved energy storage" = 100000000
+#Configuration Energy storages
+"Improved tier" = 5
+#Configuration Energy storages
+Advancedtier = 6
+#Configuration Energy storages
+"Advancedenergy transfer Et/t" = 32768
+#Configuration Energy storages
+"Advancedenergy storage" = 400000000
+#Configuration Solar Panels(Integration)
+InfinityGenDay = 2.121152E7
+#Configuration Solar Panels(Integration)
+InfinityGenNight = 2.121152E7
+#Configuration Solar Panels(Integration)
+InfinityOutput = 4.242304E7
+#Configuration Solar Panels(Integration)
+InfinityStorage = 2.5E10
+#Configuration Solar Panels(Integration)
+Neutrontier = 10
+#Configuration Solar Panels(Integration)
+NeutronGenDay = 1325720.0
+#Configuration Solar Panels(Integration)
+NeutronGenNight = 1325720.0
+#Configuration Solar Panels(Integration)
+NeutronOutput = 2651440.0
+#Configuration Solar Panels(Integration)
+NeutronStorage = 6.5E9
+#Modules
+"percent output" = 5
+#Modules
+"percent storage" = 5
+#Modules
+"percent generation day" = 5
+#Modules
+"percent generation night" = 5
+#Battery
+MaxEnergy = 100000000
+#Integration
+"Integration The One Probe" = true
+#Integration
+"Integration Thaumcraft" = true
+#Integration
+"Integration Draconic Evolution" = true
+#Integration
+"Integration Botania" = true
+#Integration
+"Integration Avaritia" = true
+#Integration
+"Integration ProjectE" = true
+#Configuration Solar Panels
+AdvancedSPGenDay = 5.0
+#Configuration Solar Panels
+AdvancedSPStorage = 3200.0
+#Configuration Solar Panels
+AdvancedSPOutput = 10.0
+#Configuration Solar Panels
+HybrydSPGenDay = 20.0
+#Configuration Solar Panels
+HybrydSPStorage = 20000.0
+#Configuration Solar Panels
+HybrydSPOutput = 40.0
+#Configuration Solar Panels
+PerfectSPGenDay = 80.0
+#Configuration Solar Panels
+PerfectSPStorage = 200000.0
+#Configuration Solar Panels
+PerfectSPOutput = 160.0
+#Configuration Solar Panels
+QuantumSPGenDay = 320.0
+#Configuration Solar Panels
+QuantumSPStorage = 1000000.0
+#Configuration Solar Panels
+QuantumSPOutput = 640.0
+#Configuration Solar Panels
+SpectralSPGenDay = 1280.0
+#Configuration Solar Panels
+SpectralSPOutput = 2560.0
+#Configuration Solar Panels
+SpectralSPStorage = 5000000.0
+#Configuration Solar Panels
+ProtonGenDay = 5120.0
+#Configuration Solar Panels
+ProtonOutput = 10240.0
+#Configuration Solar Panels
+Protonstorage = 5.0E7
+#Configuration Solar Panels
+SingularSPGenDay = 20480.0
+#Configuration Solar Panels
+SingularSPOutput = 40960.0
+#Configuration Solar Panels
+SingularSPStorage = 1.0E9
+#Configuration Solar Panels
+DiffractionPanelGenDay = 81920.0
+#Configuration Solar Panels
+DiffractionPanelStorage = 1.5E9
+#Configuration Solar Panels
+DiffractionPanelOutput = 163840.0
+#Configuration Solar Panels
+PhotonicPanelGenDay = 327680.0
+#Configuration Solar Panels
+PhotonicPanelOutput = 655360.0
+#Configuration Solar Panels
+PhotonicPanelStorage = 5.0E9
+#Configuration Solar Panels
+NeutronPanelGenDay = 1310720.0
+#Configuration Solar Panels
+NeutronPanelOutput = 2621440.0
+#Configuration Solar Panels
+NeutronPanelStorage = 6.5E9
+#Configuration Solar Panels
+BarionGenDay = 5242880.0
+#Configuration Solar Panels
+BarionOutput = 1.048576E7
+#Configuration Solar Panels
+BarionStorage = 1.0E10
+#Configuration Solar Panels
+HadrionGenDay = 2.097152E7
+#Configuration Solar Panels
+HadrionOutput = 4.194304E7
+#Configuration Solar Panels
+HadrionStorage = 2.5E10
+#Configuration Solar Panels
+GravitonGenDay = 8.388608E7
+#Configuration Solar Panels
+GravitonOutput = 1.6777216E8
+#Configuration Solar Panels
+GravitonStorage = 2.5E11
+#Configuration Solar Panels
+KvarkGenDay = 3.3554432E8
+#Configuration Solar Panels
+KvarkOutput = 6.7108864E8
+#Configuration Solar Panels
+KvarkStorage = 2.5E12
+#Configuration of reactor`s rods
+TerrasteelRod_Heat = 1
+#Configuration of reactor`s rods
+TerrasteelRod_Cells = 20000
+#Configuration of reactor`s rods
+TerrasteelRod_Power = 2
+#Configuration of reactor`s rods
+Thorium_Heat = 1
+#Configuration of reactor`s rods
+Thorium_Cells = 10000
+#Configuration of reactor`s rods
+Thorium_Power = 3
+#Configuration of reactor`s rods
+Proton_Heat = 1
+#Configuration of reactor`s rods
+Proton_Cells = 30000
+#Configuration of reactor`s rods
+Proton_Power = 6
+#Configuration rotors
+"Iridium Radius" = 11
+#Configuration rotors
+"Iridium durability" = 123428
+#Configuration rotors
+"Iridium efficiency" = 2
+#Configuration rotors
+"Iridium minWindStrength" = 25
+#Configuration rotors
+"Iridium maxWindStrength" = 110
+#Configuration rotors
+"Compress Iridium Radius" = 11
+#Configuration rotors
+"Compress Iridium durability" = 144000
+#Configuration rotors
+"Compress Iridium efficiency" = 4
+#Configuration rotors
+"Compress Iridium minWindStrength" = 25
+#Configuration rotors
+"Compress Iridium maxWindStrength" = 110
+#Configuration rotors
+"Spectral Radius" = 11
+#Configuration rotors
+"Spectral durability" = 157090
+#Configuration rotors
+"Spectral efficiency" = 8
+#Configuration rotors
+"Spectral minWindStrength" = 25
+#Configuration rotors
+"Spectral maxWindStrength" = 110
+#Spectral Armor
+"Allow Streak" = true
+#Configuration rotors
+"Mythical Radius" = 11
+#Configuration rotors
+"Mythical durability" = 3456000
+#Configuration rotors
+"Mythical efficiency" = 16
+#Configuration rotors
+"Mythical minWindStrength" = 25
+#Configuration rotors
+"Mythical maxWindStrength" = 110
+#Configuration rotors
+"Neutron Radius" = 11
+#Configuration rotors
+"Neutron durability" = 27648000
+#Configuration rotors
+"Neutron efficiency" = 64
+#Configuration rotors
+"Neutron minWindStrength" = 25
+#Configuration rotors
+"Neutron maxWindStrength" = 110
+#Configuration rotors
+"Photon Radius" = 11
+#Configuration rotors
+"Photon durability" = 691200
+#Configuration rotors
+"Photon efficiency" = 32
+#Configuration rotors
+"Photon minWindStrength" = 25
+#Configuration rotors
+"Photon maxWindStrength" = 110
+#Unifier panels
+Limit = 2
+#Configuration Solar Panels(Integration)
+Manasteelgenday = 80.0
+#Configuration Solar Panels(Integration)
+Manasteelgennight = 40.0
+#Configuration Solar Panels(Integration)
+Manasteelstorage = 200000.0
+#Configuration Solar Panels(Integration)
+Manasteeloutput = 160.0
+#Configuration Solar Panels(Integration)
+Manasteeltier = 3
+#Configuration Solar Panels(Integration)
+Elementiumgenday = 320.0
+#Configuration Solar Panels(Integration)
+Elementiumgennight = 160.0
+#Configuration Solar Panels(Integration)
+Elementiumstorage = 1000000.0
+#Configuration Solar Panels(Integration)
+Elementiumoutput = 160.0
+#Configuration Solar Panels(Integration)
+Elementiumtier = 4
+#Configuration Solar Panels(Integration)
+Terasteelgenday = 1280.0
+#Configuration Solar Panels(Integration)
+Terasteelgennight = 640.0
+#Configuration Solar Panels(Integration)
+Terasteelstorage = 5000000.0
+#Configuration Solar Panels(Integration)
+Terasteeloutput = 2560.0
+#Configuration Solar Panels(Integration)
+Terasteeltier = 5
+#Configuration Solar Panels(Integration)
+Draconicgenday = 80.0
+#Configuration Solar Panels(Integration)
+Draconicstorage = 50000.0
+#Configuration Solar Panels(Integration)
+Draconicoutput = 160.0
+#Configuration Solar Panels(Integration)
+Draconictier = 3
+#Configuration Solar Panels(Integration)
+Awakanedgenday = 20480.0
+#Configuration Solar Panels(Integration)
+Awakanedstorage = 1.0E9
+#Configuration Solar Panels(Integration)
+Awakanedoutput = 40960.0
+#Configuration Solar Panels(Integration)
+Awakanedtier = 7
+#Configuration Solar Panels(Integration)
+Chaosgenday = 1325720.0
+#Configuration Solar Panels(Integration)
+Chaosstorage = 6.5E9
+#Configuration Solar Panels(Integration)
+Chaosoutput = 2651440.0
+#Configuration Solar Panels(Integration)
+Chaostier = 10
+#Spectral Armor
+"maxcharge exept Improvemed Quantum Body" = 100000000
+#Spectral Armor
+transferlimit = 10000
+#Spectral Armor
+"maxcharge Improvemed Quantum Body" = 300000000
+#Configuration Solar Panels(Integration)
+Thaumgenday = 80.0
+#Configuration Solar Panels(Integration)
+Thaumstorage = 50000.0
+#Configuration Solar Panels(Integration)
+Thaumoutput = 160.0
+#Configuration Solar Panels(Integration)
+Thaumtier = 3
+#Configuration Solar Panels(Integration)
+Voidgenday = 320.0
+#Configuration Solar Panels(Integration)
+Voidstorage = 200000.0
+#Configuration Solar Panels(Integration)
+Voidoutput = 640.0
+#Configuration Solar Panels(Integration)
+Voidtier = 4
+#Configuration jetpacks
+adv_jetpack_maxenergy = 60000
+#Configuration jetpacks
+"adv_jetpack_transfer energy" = 120
+#Configuration jetpacks
+adv_jetpack_tier = 2
+#Configuration jetpacks
+imp_jetpack_maxenergy = 120000
+#Configuration jetpacks
+"imp_jetpack_transfer energy" = 500
+#Configuration jetpacks
+imp_jetpack_tier = 3
+#Configuration jetpacks
+per_jetpack_maxenergy = 250000
+#Configuration jetpacks
+"per_jetpack_transfer energy" = 1000
+#Configuration jetpacks
+per_jetpack_tier = 4
+#Configuration lappacks
+adv_lappack_maxenergy = 25000000
+#Configuration lappacks
+"adv_lappack_transfer energy" = 50000
+#Configuration lappacks
+adv_lappack_tier = 3
+#Configuration lappacks
+imp_lappack_maxenergy = 50000000
+#Configuration lappacks
+"imp_lappack_transfer energy" = 100000
+#Configuration lappacks
+imp_lappack_tier = 4
+#Configuration lappacks
+per_lappack_maxenergy = 100000000
+#Configuration lappacks
+"per_lappack_transfer energy" = 500000
+#Configuration lappacks
+per_lappack_tier = 5
+#Configuration quntum quarry
+"enable work only with veins" = false
+

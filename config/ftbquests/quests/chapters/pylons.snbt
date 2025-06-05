@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pylons"
+	group: "139FFC86F000F225"
+	hide_quest_until_deps_complete: true
+	id: "318D4CC03A68C5EF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2FF5BCF4647F0652"
+			rewards: [{
+				id: "6118017CCCA8CDF0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "38D3039E6AF53D89"
+				item: "minecraft:polished_blackstone"
+				type: "item"
+			}]
+			title: "Bienvenido A Pylons Mod"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FF5BCF4647F0652"]
+			id: "1CEA34B16B0BB323"
+			rewards: [
+				{
+					count: 2
+					id: "1D80F910B97B8E91"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5EA775F7DE8338FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "00782333260AE51C"
+				item: "pylons:expulsion_pylon"
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["2FF5BCF4647F0652"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "076FCBE163D08EDA"
+			rewards: [
+				{
+					id: "084ADF5D2540F785"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C5A4EB00FC542F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "02A36D1B8CE1B85F"
+				item: "pylons:interdiction_pylon"
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["2FF5BCF4647F0652"]
+			id: "068D08978320A291"
+			rewards: [
+				{
+					count: 4
+					id: "62909B2D4D466C35"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "722453AA6A7BC87B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "4C6E4FB76406EE22"
+				item: "pylons:harvester_pylon"
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["2FF5BCF4647F0652"]
+			id: "0C3DE312D97B0A5F"
+			rewards: [
+				{
+					count: 2
+					id: "5F4A03968704D96A"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E1A8D4ED47B712A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1C0A1ADBF5E9BD35"
+				item: "pylons:infusion_pylon"
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["1CEA34B16B0BB323"]
+			hide_details_until_startable: false
+			id: "04985BBFA5AA533E"
+			rewards: [{
+				id: "515D08D855C46B24"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "2BA7B611A659DFB3"
+				item: "pylons:player_filter"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -3.15d
+		}
+		{
+			dependencies: ["076FCBE163D08EDA"]
+			hide_until_deps_complete: true
+			id: "45D2FD07859088FE"
+			rewards: [
+				{
+					count: 10
+					id: "28A5CCDE8607AC6F"
+					type: "item"
+				}
+				{
+					id: "2E2698F0D37C7C28"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "32E1FF4146DA267C"
+				item: "pylons:mob_filter"
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: 3.15d
+		}
+		{
+			dependencies: ["0C3DE312D97B0A5F"]
+			id: "7808D39AE06D05F9"
+			rewards: [
+				{
+					id: "784340EDF873A5B2"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "21420B33AAD7298C"
+					type: "item"
+				}
+				{
+					id: "549D134510F143B7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "08BAE8E2AC09B9D5"
+				item: "pylons:potion_filter"
+				type: "item"
+			}]
+			x: -3.15d
+			y: -3.15d
+		}
+		{
+			dependencies: ["068D08978320A291"]
+			hide_dependency_lines: false
+			id: "38B4DB0DFD6A9880"
+			rewards: [
+				{
+					id: "09082B9AC865AD39"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+				{
+					id: "779B24B1AC1AFA8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "0F7E99214B23A021"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.15d
+			y: 3.15d
+		}
+	]
+	title: "Pylons"
+}

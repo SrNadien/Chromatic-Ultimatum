@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_storage"
+	group: "112AF5F6AB4E63B2"
+	id: "5934BA4E610989ED"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "2C316AFB5AC57197"
+			tasks: [{
+				id: "7BFD235EE4F57926"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			title: "Bienvenido A Ender Storage"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C316AFB5AC57197"]
+			id: "33F5A3F7FDAB7CB9"
+			rewards: [{
+				id: "3D8AA382456A3BDF"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08C19E8781066E25"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33F5A3F7FDAB7CB9"]
+			id: "102FDE0A7D91C596"
+			rewards: [{
+				id: "57A0FE77C5035F4C"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64468EE1A44C8C59"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102FDE0A7D91C596"]
+			id: "7638BEA05D1AA60E"
+			rewards: [{
+				id: "152FD657D5AB542C"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4926C66CB80436E3"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Ender Storage"
+}

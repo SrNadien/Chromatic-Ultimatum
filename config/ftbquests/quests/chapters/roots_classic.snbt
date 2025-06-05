@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "roots_classic"
+	group: "2E1D6118A58B154A"
+	id: "6B57F51CF4361515"
+	images: [{
+		height: 10.0d
+		image: "custom:textures/roostclassic.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 4.5d
+		y: -11.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: "rootsclassic:runic_tablet"
+			id: "4EAA51AD45396836"
+			tasks: [{
+				id: "22F445544FABD0DE"
+				item: "rootsclassic:runic_tablet"
+				type: "item"
+			}]
+			title: "Bienvenido A Roots Classic"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EAA51AD45396836"]
+			hide_until_deps_complete: true
+			id: "44213F108E8B865E"
+			tasks: [{
+				id: "008871AFED086064"
+				item: {
+					Count: 1
+					id: "rootsclassic:bark_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44213F108E8B865E"]
+			id: "5BFAD8D9E58EC57B"
+			tasks: [
+				{
+					id: "31248E117571FF0E"
+					item: "rootsclassic:oak_bark"
+					type: "item"
+				}
+				{
+					id: "1DCF8E6FB97B12E3"
+					item: "rootsclassic:spruce_bark"
+					type: "item"
+				}
+				{
+					id: "14862CF1C8A8CFF4"
+					item: "rootsclassic:birch_bark"
+					type: "item"
+				}
+				{
+					id: "2C82CF0C36A7CC10"
+					item: "rootsclassic:jungle_bark"
+					type: "item"
+				}
+				{
+					id: "723D08779097C926"
+					item: "rootsclassic:acacia_bark"
+					type: "item"
+				}
+				{
+					id: "55BB179723448FB1"
+					item: "rootsclassic:dark_oak_bark"
+					type: "item"
+				}
+				{
+					id: "091B760A8EA54D68"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BFAD8D9E58EC57B"]
+			id: "51E68B18E099121B"
+			tasks: [{
+				id: "213C76B742EAB57D"
+				item: "rootsclassic:verdant_sprig"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51E68B18E099121B"]
+			id: "2B37B40FF02BA337"
+			tasks: [
+				{
+					id: "1B8E56A48FF69645"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5C29EEE3A411040D"
+					item: { Count: 8, id: "rootsclassic:brazier" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "11959930A901EB0E"
+					item: { Count: 8, id: "rootsclassic:mundane_standing_stone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A50AC23AF475E49"
+					item: { Count: 4, id: "rootsclassic:attuned_standing_stone" }
+					type: "item"
+				}
+			]
+			title: "Altar"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B37B40FF02BA337"]
+			id: "7F3C640F25190386"
+			tasks: [{
+				id: "1E8D7658572AFD6C"
+				item: "rootsclassic:crystal_staff"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F3C640F25190386"]
+			id: "4C0749FC00E25270"
+			tasks: [
+				{
+					id: "40EF000530FED287"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "5AE963A680E50D7C"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C0749FC00E25270"]
+			id: "02443334FD4F76A0"
+			tasks: [{
+				id: "1C8166F8C8755A62"
+				item: {
+					Count: 1
+					id: "rootsclassic:spell_powder"
+					tag: {
+						"rootsclassic:effect": "rootsclassic:oxeye_daisy"
+						"rootsclassic:efficiency": 1
+						"rootsclassic:potency": 1
+						"rootsclassic:size": 1
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02443334FD4F76A0"]
+			id: "52DBFF5650C8ACC6"
+			tasks: [{
+				id: "66184CBE33455DFE"
+				item: {
+					Count: 1
+					id: "rootsclassic:crystal_staff"
+					tag: {
+						"rootsclassic:effect1": "rootsclassic:oxeye_daisy"
+						"rootsclassic:effect2": ""
+						"rootsclassic:effect3": ""
+						"rootsclassic:effect4": ""
+						"rootsclassic:efficiency1": 1
+						"rootsclassic:efficiency2": 0
+						"rootsclassic:efficiency3": 0
+						"rootsclassic:efficiency4": 0
+						"rootsclassic:potency1": 1
+						"rootsclassic:potency2": 0
+						"rootsclassic:potency3": 0
+						"rootsclassic:potency4": 0
+						"rootsclassic:selected": 1
+						"rootsclassic:size1": 1
+						"rootsclassic:size2": 0
+						"rootsclassic:size3": 0
+						"rootsclassic:size4": 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crystal Staff Infused"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C0749FC00E25270"]
+			id: "71D9A161AD187165"
+			tasks: [{
+				id: "12234136242CF2E5"
+				item: "rootsclassic:verdant_sprig"
+				type: "item"
+			}]
+			title: "Tier 1 Mejora de Hechizos"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C0749FC00E25270"]
+			id: "053D35BFE6DCD525"
+			tasks: [{
+				id: "5BCB5D9C9B6C402C"
+				item: "rootsclassic:infernal_bulb"
+				type: "item"
+			}]
+			title: "Tier 2 Mejora De Hechzos"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C0749FC00E25270"]
+			id: "5EA0B897400E30B5"
+			tasks: [{
+				id: "5CD6E556B1668AC1"
+				item: "rootsclassic:dragons_eye"
+				type: "item"
+			}]
+			title: "Tier 3 Mejora De Hechizos"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"71D9A161AD187165"
+				"053D35BFE6DCD525"
+				"5EA0B897400E30B5"
+			]
+			id: "1CA7EE311503EC50"
+			tasks: [
+				{
+					id: "3DEF7F0BD1F1FDF3"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "657DE6F88BFDF834"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "4A041849F73753F2"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			title: "Potenciadores De hechizos"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DBFF5650C8ACC6"]
+			id: "667DD071CDA945C1"
+			tasks: [
+				{
+					id: "657F683249AE9271"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C4C3D63EE78D0D8"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1296CC6D5CDE9BC1"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AF5927F36F495A2"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696B2FE004A750FE"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52DBFF5650C8ACC6"]
+			id: "650D541DBA130144"
+			tasks: [
+				{
+					id: "2D504A1BC8F9E354"
+					item: {
+						Count: 1
+						id: "rootsclassic:sylvan_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "121CB15423AB0389"
+					item: {
+						Count: 1
+						id: "rootsclassic:sylvan_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64C33AC1551BE660"
+					item: {
+						Count: 1
+						id: "rootsclassic:sylvan_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2638614451FF8B56"
+					item: {
+						Count: 1
+						id: "rootsclassic:sylvan_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52DBFF5650C8ACC6"]
+			id: "2EDA2ACAAEC001CE"
+			tasks: [
+				{
+					id: "545D31689850E986"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3019531EF206A67B"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_plate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B6C381257ADB143"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79035CBF5F1CCBC2"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"650D541DBA130144"
+				"2EDA2ACAAEC001CE"
+				"667DD071CDA945C1"
+			]
+			id: "764E58BFE4C90E88"
+			tasks: [
+				{
+					id: "7730496C56692C12"
+					item: {
+						Count: 1
+						id: "rootsclassic:engraved_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6489BDF8036B10D1"
+					item: "rootsclassic:charged_runic_focus"
+					type: "item"
+				}
+				{
+					id: "26503E7676B2D4AC"
+					item: "rootsclassic:runic_focus"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -0.5d
+		}
+	]
+	title: "Roots Classic"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Galaxy Star",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "ultimate_utilities:estella_galactica"
+    },
+    "color": "e1ffbf",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

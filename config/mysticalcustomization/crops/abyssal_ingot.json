@@ -1,0 +1,13 @@
+{
+    "name": "Abyssal Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "thermal_extra:abyssal_block"
+    },
+    "color": "017522",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

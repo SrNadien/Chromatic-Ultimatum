@@ -1,0 +1,13 @@
+{
+    "name": "Lightning Dragon Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "iceandfire:dragonsteel_lightning_block"
+    },
+    "color": "804dff",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "extended_crafting"
+	group: "139FFC86F000F225"
+	id: "2333ACDCB157C930"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2B763DDB73DE9815"
+			tasks: [{
+				id: "4047D16F2AB7B669"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B763DDB73DE9815"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "015BCA17D89D9B66"
+			tasks: [{
+				id: "4C38CBC4B7098008"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["015BCA17D89D9B66"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "531B1735397257B7"
+			tasks: [{
+				id: "04BD3451C35030F8"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["531B1735397257B7"]
+			hide_dependency_lines: true
+			id: "5BB02DE2DBCAD453"
+			tasks: [{
+				id: "4F41EBF59770CA44"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BB02DE2DBCAD453"]
+			hide_dependency_lines: true
+			id: "2AC0EB8CE1AEC7D4"
+			tasks: [{
+				id: "75B7ACF8358DBAC2"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "Cobble for Days"
+}

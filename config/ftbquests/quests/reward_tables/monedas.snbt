@@ -1,0 +1,9 @@
+{
+	icon: "ultimate_utilities:coin_gold"
+	id: "2A6A35D6097CE745"
+	loot_size: 1
+	order_index: 32
+	rewards: [ ]
+	title: "monedas"
+	use_title: true
+}

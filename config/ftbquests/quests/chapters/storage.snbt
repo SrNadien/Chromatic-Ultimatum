@@ -1,0 +1,578 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "112AF5F6AB4E63B2"
+	icon: "minecraft:chest"
+	id: "1DB294A8F8686321"
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:textures/item/chest_minecart.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			height: 10.0d
+			image: "custom:textures/tquests/expandedstorage.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -10.5d
+			y: -9.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E4BC0F59C90433A"]
+			description: ["*Nota: Para actualizar un cofre de vainilla ya colocado a un cofre sofisticado de hierro, primero deberás convertir el cofre con una \"Mejora de nivel básico\"."]
+			id: "58514FDE153FD971"
+			rewards: [
+				{
+					id: "632C34D1F4CE965A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "330E21D23165B829"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Un solo cofre del tamaño de 2."
+			tasks: [{
+				id: "77A9435B6739348E"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58514FDE153FD971"]
+			id: "3E33730DC2115D26"
+			rewards: [
+				{
+					id: "2B0E611FC8E7C52F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B0B6F06B83B6A93"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Mucho más espacio para actividades."
+			tasks: [{
+				id: "0427B441A750316F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E33730DC2115D26"]
+			id: "4C0BDD483CCB40C4"
+			rewards: [
+				{
+					id: "09194C282964BF5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0415C90C635B77D4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Mucho y más espacio para actividades."
+			tasks: [{
+				id: "00ED02255105A973"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0BDD483CCB40C4"]
+			description: [""]
+			id: "77F241BEE9902751"
+			rewards: [
+				{
+					id: "3E846FD78C055A89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "33035D9E5D284A72"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34B6EB0B801E4743"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["¡Igual que un cofre de vanilla, pero tiene una ranura para una mejora de almacenamiento!"]
+			id: "5E4BC0F59C90433A"
+			rewards: [
+				{
+					id: "67C504323225DDD8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "5926ED11CED5896C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.35d
+			subtitle: "El cofre inicial."
+			tasks: [{
+				id: "5241AA0EF3C2EA94"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "\"Vanilla\" Chest"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"¡Bienvenido al capítulo de almacenamiento básico!"
+				""
+				"¡Encontrará todas las formas básicas de almacenar artículos sin energía, así como artículos útiles para sus necesidades de almacenamiento!"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "5A94A2664BFDD7B9"
+			rewards: [{
+				id: "570FFAC4E65BBF46"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3E7F26D68D9A166B"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "Almacenamiento básico"
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"¡Los cofres sofisticados te permiten mejorar tus cofres con metales para aumentar el almacenamiento! También puede agregar filtros de actualización para aumentar la funcionalidad del cofre."
+				""
+				"¡No más habitaciones vainilla con dos cómodas!"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_chest"
+				tag: {
+					woodType: "dark_oak"
+				}
+			}
+			id: "563CFA1EF74E52E9"
+			rewards: [{
+				id: "58CC2C987D56D7F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "¡Cofres actualizables!"
+			tasks: [{
+				id: "034F49638F207523"
+				title: "Iron Chests"
+				type: "checkmark"
+			}]
+			title: "Sophisticated Storage"
+			x: -11.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"¿Quiere crear almacenamiento virtual utilizando &9Refined Storage&r o &9Applied Energistics 2&r?"
+				""
+				"Ambas son excelentes formas de actualizar su almacenamiento, pero es importante hablar sobre los &eNBT Items&r y la mejor manera de almacenarlos."
+				""
+				"Los artículos NBT son artículos con etiquetas adicionales adjuntas. Objetos encantados, objetos con durabilidad, gemas de apoteosis... todos estos son objetos con etiquetas NBT adheridas. Debido a esto, no suelen"
+				""
+				"Cuando almacena muchos de estos en un sistema de almacenamiento como RS o AE2, corre el riesgo de crear problemas para su guardado o servidor."
+				""
+				"¡Por eso es mejor guardarlos en cofres o bolsas!"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "7EF57BBEAA4B6B08"
+			min_width: 300
+			rewards: [
+				{
+					id: "709280A79BC54D7E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "495C45D51AEDF931"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F1C07541B66F171"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21FBC4E0F668347C"
+				title: "NBT and YOU!"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			id: "5318CBE1755A50C4"
+			rewards: [
+				{
+					id: "316B889136837706"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "70CF881855D46E79"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "73351CA4204328F1"
+					item: "minecraft:barrel"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6665701E2299533F"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "Almacen alternativo"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5318CBE1755A50C4"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "654307C39AF6624D"
+			rewards: [
+				{
+					id: "5821BDB99DC76C8C"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "7CBAAA5E3D4A8E5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E586D655CEF3473"
+					item: "minecraft:copper_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E62574DB1E62583"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "240A483D5F3171A0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de cobre"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654307C39AF6624D"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:iron_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "53C21B8A2F6CDB11"
+			rewards: [
+				{
+					id: "31F9AE6F9CC6C7DA"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "5B4336F2B73FA0F5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3B97708157116841"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27D894ED26943C52"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FDAC307B408F2ED"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3088689281BAB733"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "Barril de hierro"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C21B8A2F6CDB11"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "091B94BA0C594E66"
+			rewards: [
+				{
+					id: "7A483E47DF268BD4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "2C306B42A73E48FB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "36FDAE568419CEF5"
+					item: "minecraft:gold_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "771A3F300A0EB840"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:gold_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AD0759754A75B6C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de oro"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["091B94BA0C594E66"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "1261146829040ADA"
+			rewards: [
+				{
+					id: "73730BB563F38CF5"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "13A714C3A7F45730"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "483F23788EFDB407"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A20E0F77D6A8E0A"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:diamond_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0182986E355CECEE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2B103A814000B5C2"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Barril de diamante"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1261146829040ADA"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:netherite_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "02BCBE78DD255E49"
+			rewards: [
+				{
+					id: "01B9498F11B10A8B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "40138FAF37D9A936"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67FDD5C65C864E73"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19EC6139B4B8BCEA"
+					item: "expandedstorage:netherite_barrel"
+					type: "item"
+				}
+				{
+					id: "1936744AC96C15CB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de netherita"
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "Cofres"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Chromium Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "mysticalexpansion:etherium_ingot_block"
+    },
+    "color": "017759",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"   
+     }
+  }

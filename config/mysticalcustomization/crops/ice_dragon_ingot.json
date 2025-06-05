@@ -1,0 +1,13 @@
+{
+    "name": "Ice Dragon Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "iceandfire:dragonsteel_ice_block"
+    },
+    "color": "96e7db",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

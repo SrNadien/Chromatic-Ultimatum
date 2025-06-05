@@ -1,0 +1,38 @@
+{
+	icon: "ironfurnaces:iron_furnace"
+	id: "33B59C3356347A26"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "ironfurnaces:rainbow_plating", random_bonus: 8 }
+		{ item: "ironfurnaces:rainbow_core" }
+		{ item: "ironfurnaces:augment_fuel" }
+		{ item: "ironfurnaces:augment_speed" }
+		{ item: "ironfurnaces:augment_generator" }
+		{ item: "ironfurnaces:augment_factory" }
+		{ item: "ironfurnaces:augment_smoking" }
+		{ item: "ironfurnaces:augment_blasting" }
+		{ item: "ironfurnaces:item_heater" }
+		{ item: "ironfurnaces:netherite_furnace" }
+		{ item: "ironfurnaces:copper_furnace" }
+		{ item: "ironfurnaces:silver_furnace" }
+		{ item: "ironfurnaces:item_spooky" }
+		{ item: "ironfurnaces:item_xmas" }
+		{ item: "ironfurnaces:unobtainium_furnace" }
+		{ item: "ironfurnaces:allthemodium_furnace" }
+		{ item: "ironfurnaces:vibranium_furnace" }
+		{ item: "ironfurnaces:obsidian_furnace" }
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "ironfurnaces:gold_furnace" }
+		{ item: "ironfurnaces:iron_furnace" }
+		{ item: "ironfurnaces:heater" }
+		{ item: "ironfurnaces:upgrade_silver2" }
+		{ item: "ironfurnaces:upgrade_gold2" }
+		{ item: "ironfurnaces:upgrade_obsidian" }
+		{ item: "ironfurnaces:upgrade_crystal" }
+		{ item: "ironfurnaces:upgrade_netherite" }
+		{ item: "ironfurnaces:crystal_furnace" }
+	]
+	title: "Hornitos"
+}

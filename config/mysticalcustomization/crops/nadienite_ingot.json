@@ -1,0 +1,13 @@
+{
+    "name": "Nadienite Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "ultimate_utilities:nadienitebloque"
+    },
+    "color": "e1ffbf",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"   
+     }
+  }

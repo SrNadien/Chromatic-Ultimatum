@@ -1,0 +1,49 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:cockroach",
+    "name": "entity.alexsmobs.cockroach",
+    "name_color": "#545943",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.cockroach",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:cockroach_ootheca",
+            "count": 8
+        },
+        {
+            "item": "alexsmobs:cockroach_wing",
+            "count": 8
+        },
+         {
+            "item": "alexsmobs:cockroach_wing_fragment",
+            "count": 8
+        }
+    ],
+    "tier_data": [
+		100,
+        150,
+        200,
+        1200
+    ],
+    "data_per_kill": [
+        50,
+        50,
+        50,
+        240
+    ]
+}

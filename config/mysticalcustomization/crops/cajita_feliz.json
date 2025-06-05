@@ -1,0 +1,13 @@
+{
+    "name": "Cajita Feliz",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:1",
+    "ingredient": {
+      "item": "ultimate_utilities:cajita_feliz"
+    },
+    "color": "ddd204",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

@@ -1,0 +1,90 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "617F6D802ED0FD00"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
+		{ item: "powah:thermo_generator_niotic" }
+		{ item: "powah:thermo_generator_spirited" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:elite_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
+		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{ item: "thermal:upgrade_augment_3" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "mekanism:quantum_entangloporter" }
+		{ item: "botanypots:terracotta_hopper_botany_pot" }
+	]
+	title: "&dEpic Reward"
+	use_title: true
+}

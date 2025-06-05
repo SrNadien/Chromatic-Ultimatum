@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "139FFC86F000F225"
+	id: "3EA53455C55AB21F"
+	images: [
+		{
+			height: 4.0d
+			image: "cataclysm:item/ignitium_ingot"
+			rotation: 0.0d
+			width: 4.0d
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			height: 5.0d
+			image: "custom:textures/cataclysm.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:item/ignitium_ingot"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: -8.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "0A99BB3DBC508A85"
+			tasks: [{
+				advancement: "cataclysm:root"
+				criterion: ""
+				id: "6786E67B8DA2CD99"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A99BB3DBC508A85"]
+			hide_until_deps_complete: true
+			id: "34257612DB499D0A"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "5369DAF89B5C1571"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34257612DB499D0A"]
+			id: "2CFFAC3B53A913EC"
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "4B224CAB7F890303"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34257612DB499D0A"]
+			id: "659D592B06C597FA"
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "256D7009A72F116B"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["659D592B06C597FA"]
+			id: "2A41345F02994B06"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "73209355C6F947B7"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A41345F02994B06"]
+			id: "60367E5EFACF7326"
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "51E580FEA41EBBC6"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CFFAC3B53A913EC"]
+			id: "5554218A980B9B6B"
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "00B608ED833637A2"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5554218A980B9B6B"]
+			id: "04F4A648D0FD824F"
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "100433FABC3979E9"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04F4A648D0FD824F"]
+			id: "60CF8F5D1039F294"
+			tasks: [{
+				advancement: "cataclysm:kill_revenant"
+				criterion: ""
+				id: "65A22519E782FF79"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5554218A980B9B6B"]
+			id: "0A4EE6C5A6B44D0F"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "73533BA536F627D7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CFFAC3B53A913EC"]
+			id: "062255EE99CA5776"
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "48802BCADBA41BDC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34257612DB499D0A"]
+			id: "000F6C4F19F597CF"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "2AFCFA1CAEE6E9FE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["659D592B06C597FA"]
+			id: "481F4E41D453A5FC"
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "3083FB28F09DB72D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A41345F02994B06"]
+			id: "13AADA58EE793D19"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "40EEA9672FBAA8DF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60367E5EFACF7326"]
+			id: "776DADD7D0F18CD2"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "128B7558ECFCDC69"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "L Enders Cataclysm"
+}

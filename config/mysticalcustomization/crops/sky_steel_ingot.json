@@ -1,0 +1,13 @@
+{
+    "name": "Sky Steel  Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:1",
+    "ingredient": {
+      "item": "megacells:sky_steel_block"
+    },
+    "color": "e09571",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot" 
+     }
+  }

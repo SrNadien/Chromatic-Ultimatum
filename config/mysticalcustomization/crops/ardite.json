@@ -1,0 +1,13 @@
+{
+    "name": "Ardite",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "tinkers_thinking:ardite_block"
+    },
+    "color": "f9ba0f",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"  
+     }
+  }

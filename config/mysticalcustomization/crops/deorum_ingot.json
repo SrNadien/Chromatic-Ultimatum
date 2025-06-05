@@ -1,0 +1,13 @@
+{
+    "name": "Deorum Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "forbidden_arcanus:deorum_block"
+    },
+    "color": "ffec40",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

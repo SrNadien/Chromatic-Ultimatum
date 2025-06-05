@@ -1,0 +1,13 @@
+{
+    "name": "Dawn Stone Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "embers:dawnstone_block"
+    },
+    "color": "b6aa3d",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

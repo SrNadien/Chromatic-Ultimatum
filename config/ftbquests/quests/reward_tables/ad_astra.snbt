@@ -1,0 +1,102 @@
+{
+	id: "143A40F67F084963"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{ item: "ad_astra:earth_globe" }
+		{ item: "ad_astra:moon_globe" }
+		{ item: "ad_astra:mars_globe" }
+		{ item: "ad_astra:mercury_globe" }
+		{ item: "ad_astra:venus_globe" }
+		{ item: "ad_astra:glacio_globe" }
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:space_suit"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 1000L
+							Fluid: "ad_astra:oxygen"
+						}]
+					}
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:netherite_space_suit"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 2000L
+							Fluid: "ad_astra:oxygen"
+						}]
+					}
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:jet_suit"
+				tag: {
+					BotariumData: {
+						Energy: 1000000L
+						StoredFluids: [{
+							Amount: 4000L
+							Fluid: "ad_astra:oxygen"
+						}]
+					}
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:zip_gun"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 3000L
+							Fluid: "ad_astra:oxygen"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "ad_astra:white_flag" }
+		{ item: "ad_astra:orange_flag" }
+		{ item: "ad_astra:magenta_flag" }
+		{ item: "ad_astra:light_blue_flag" }
+		{ item: "ad_astra:yellow_flag" }
+		{ item: "ad_astra:lime_flag" }
+		{ item: "ad_astra:pink_flag" }
+		{ item: "ad_astra:gray_flag" }
+		{ item: "ad_astra:light_gray_flag" }
+		{ item: "ad_astra:cyan_flag" }
+		{ item: "ad_astra:purple_flag" }
+		{ item: "ad_astra:blue_flag" }
+		{ item: "ad_astra:brown_flag" }
+		{ item: "ad_astra:green_flag" }
+		{ item: "ad_astra:red_flag" }
+		{ item: "ad_astra:black_flag" }
+		{ item: "ad_astra:desh_sliding_door" }
+		{ count: 64, item: "ad_astra:cheese" }
+		{ item: "ad_astra:iron_sliding_door" }
+		{ item: "ad_astra:strophar_door" }
+		{
+			item: {
+				Count: 1
+				id: "ad_astra:tier_1_rover"
+				tag: { }
+			}
+		}
+		{ item: "ad_astra:calorite_sliding_door" }
+	]
+	title: "Ad Astra"
+}

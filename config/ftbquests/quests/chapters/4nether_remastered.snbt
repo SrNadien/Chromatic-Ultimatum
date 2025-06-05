@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "4nether_remastered"
+	group: "139FFC86F000F225"
+	id: "1CED247F1437C885"
+	images: [{
+		height: 4.0d
+		image: "custom:textures/tquests/netherremastr.png"
+		rotation: 0.0d
+		width: 13.114754098360656d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: [
+				"Se consigue matando &5&lBrujas&r y esto te dara el objeto que necesitaras"
+				""
+				"&o&7Tambien puedes hacer granjas y intentar sacarlas de ellas una opcion mas facil&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3AC51E9C8BC92D3A"
+			rewards: [
+				{
+					id: "7911B0AF6047CDE2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76D0D7ED9428A48E"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "29727D1835D7D8E7"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: [
+				"Este objeto se encuentra en los cofres de las &9&lMinas Abandonadas &a(Mineshafts)&r."
+				""
+				"&o&7Tambien puedes hacer granjas y intentar sacarlas de ellas una opcion mas facil&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "63249D5394126EF4"
+			rewards: [
+				{
+					id: "6F62549A11E93116"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F9A1DA8B0D37675"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2B79B8D9AB86793F"
+				item: "nether_remastered:seal_piece_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: [
+				"Se obtiene matando a los &2&lEvokers&r en las Mansiones o Raids"
+				""
+				"&o&7Tambien puedes hacer granjas y intentar sacarlas de ellas una opcion mas facil&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5AEEDC3CC99B0F58"
+			rewards: [
+				{
+					id: "313812805F69680F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3591904E13457F90"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "75DBE503EFE06800"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: [
+				"Se obtiene en los &4&lPillager Outpost&r."
+				"Se obtienen en cofres tambien"
+				""
+				"&o&7Tambien puedes hacer granjas y intentar sacarlas de ellas una opcion mas facil&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4A41891531915288"
+			rewards: [
+				{
+					id: "4C25260A52A1ABD4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "462B7D0B9F21B8A7"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5EF7CFAFC9374DB4"
+				item: "nether_remastered:seal_piece_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: ["Se consigue matando al &1&lWarden&r para obtener el &dNether Crystal&r."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "74FCD861CA951BCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AFA8173A8F5D228"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					id: "39218EC646D3FB23"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "196AEC731759CFDD"
+				item: "nether_remastered:seal_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69B540DB7BD41A2D"]
+			description: [
+				"Se consigue matando cualquier mobs (No muerto) con un &5&lInfused Obsidian Bottle&r en el inventario &2&l(Debes tener el frasco en la mano secundaria la botellita .,.)&r"
+				""
+				""
+				"&o&8• Mobs normales no modificados&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6FAC2F22DBD94BFC"
+			rewards: [
+				{
+					id: "58922EAD28C5B1C5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4B7E292726F476"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1340839C8A400449"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&c•&r &4Nether Remastered&r es un desafío mayor. "
+				""
+				"Ya no puedes simplemente obtener algo de obsidiana, fabricar un pedernal y acero, activar el portal y caminar hacia el Nether. "
+				""
+				"Aún puedes fabricar y activar el portal, &cpero ya no podrás ingresar a la dimensión&r."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "69B540DB7BD41A2D"
+			tasks: [{
+				id: "43744918C1C1BC78"
+				title: "Nether Remastered"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"63249D5394126EF4"
+				"4A41891531915288"
+				"5AEEDC3CC99B0F58"
+				"3AC51E9C8BC92D3A"
+				"6FAC2F22DBD94BFC"
+				"74FCD861CA951BCE"
+			]
+			description: [
+				"Felicidades y el último paso es consumirlo."
+				""
+				"&4&lNota: Solo se puede 1 vez"
+				""
+				"&8&lAtt: tru (.,.)/"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "39E9C4C3E2CA92CE"
+			rewards: [
+				{
+					id: "29AF076DCA3FEBAD"
+					type: "xp"
+					xp: 236
+				}
+				{
+					id: "786234D7553F7DBD"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A0D85CC3871F096"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"¡Crea &9Botellas Infundidas de Obsidiana&r con 2x Vidrio y 1x Obsidiana Llorona (Crea x3)!"
+				""
+				"¡&3Sostén&r la Botella Infundida de Obsidiana en tu &3mano secundaria&r y mata a cualquier monstruo no muerto, de esta manera atraparás la Esencia del Nether dentro de la botella!"
+				""
+				"¡Obtén las cuatro piezas de fragmento de Evocadores, Brujas, Minas Abandonadas y Puestos de Saqueadores! "
+				""
+				"&7&o(Nota: ¡Cada monstruo/estructura solo suelta UNA variante del fragmento! &r&r"
+				""
+				"Es decir, el Evocador solo suelta el fragmento inferior izquierdo)."
+				"&8"
+				"&oSi no te sueltan estos puedes preguntar cuales tambien sueltan porque hay otros que sueltan como el &2SLIME&r&r&r"
+				""
+				"Ahora, para posiblemente la tarea más desafiante, mata al Guardián para obtener el Cristal del Nether."
+				"Una vez que hayas obtenido todos los objetos requeridos, ahora puedes crear el Sello del Inframundo."
+				"Usa el sello para que se te conceda acceso al Nether."
+			]
+			hide_until_deps_visible: true
+			id: "11086102E26790BB"
+			rewards: [{
+				id: "48F68ADDA6D4AC09"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "19ACED41412ABF8C"
+				title: "Empezamos con la aventura"
+				type: "checkmark"
+			}]
+			title: "Nether voy por ti"
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+	title: "&4Nether Remastered"
+}

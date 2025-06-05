@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "bigger_reactors"
+	group: "37A5A987B8412F7F"
+	id: "1814F7509EFD448B"
+	images: [{
+		height: 7.0d
+		image: "custom:textures/viejas/biggerreactors.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 2.0d
+		y: -7.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "344840088684E84E"
+			tasks: [{
+				id: "2AC8945A0A48E389"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biggerreactors:uranium_ingot"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ingot_uranium"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bienvenido A Bigger reactors"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["344840088684E84E"]
+			id: "2436C552EB01CA15"
+			tasks: [{
+				id: "0B90B489B1AD5ACF"
+				item: "biggerreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2436C552EB01CA15"]
+			id: "54600B3DFCBDF083"
+			tasks: [{
+				id: "0E96BAEC965EE442"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			title: "Hacie El primer Esplotido"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54600B3DFCBDF083"]
+			description: ["{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:100 height:100 align:center}"]
+			id: "388B84CF67B77563"
+			subtitle: "Reactor Gui"
+			tasks: [
+				{
+					count: 27L
+					id: "281D9A923818271E"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "638CA267CCE381B2"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+				{
+					id: "0E8DCAA898748CBD"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1FD26DA5DC3D3659"
+					item: { Count: 12, id: "biggerreactors:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "4B7A3F287188EB97"
+					item: { Count: 20, id: "biggerreactors:reactor_fuel_rod" }
+					type: "item"
+				}
+				{
+					id: "4544713587667123"
+					item: "biggerreactors:reactor_terminal"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3F14540C3AA445D9"
+					item: { Count: 5, id: "biggerreactors:reactor_control_rod" }
+					type: "item"
+				}
+			]
+			title: "Mi Primer Esplotido"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["388B84CF67B77563"]
+			id: "63D77FC905080D63"
+			tasks: [
+				{
+					id: "00AAE29CCF90C67F"
+					item: "biggerreactors:cyanite_ingot"
+					type: "item"
+				}
+				{
+					id: "3FADFE7D446C1864"
+					item: "biggerreactors:cyanite_reprocessor"
+					type: "item"
+				}
+			]
+			title: "A Por Las Turbinas"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54600B3DFCBDF083"]
+			description: [
+				"Ejemplo 3x3"
+				"{image:galaxyorigenes:textures/viejas/biggerreactors/3x3_reactor.png width:100 height:100 align:center}"
+				""
+				"Ejemplo 5x5"
+				"{image:galaxyorigenes:textures/viejas/biggerreactors/5x5_completed.png width:100 height:100 align:center}"
+			]
+			icon: "biggerreactors:reactor_terminal"
+			id: "498936AE8333701E"
+			shape: "gear"
+			subtitle: "Ejemplo 3x3"
+			tasks: [{
+				id: "05D8CCDAB929BC9E"
+				title: "Ejemplo"
+				type: "checkmark"
+			}]
+			title: "Ejemplo reactor"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["63D77FC905080D63"]
+			icon: "biggerreactors:ludicrite_block"
+			id: "1B3736A9D8B83461"
+			tasks: [{
+				id: "431C9EF0B64964DD"
+				item: "minecraft:stripped_oak_wood"
+				type: "item"
+			}]
+			title: "Lucresia"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B3736A9D8B83461"]
+			description: ["{image:galaxyorigenes:textures/viejas/biggerreactors/turbine_ui.png width:100 height:100 align:center}"]
+			id: "61C8846ED2E4099F"
+			tasks: [
+				{
+					count: 27L
+					id: "5A11FEF10E882C5A"
+					item: { Count: 27, id: "biggerreactors:turbine_casing" }
+					type: "item"
+				}
+				{
+					id: "0B18B6F536E72BE9"
+					item: "biggerreactors:turbine_terminal"
+					type: "item"
+				}
+				{
+					id: "6D4D4E3EEA19B1DC"
+					item: "biggerreactors:turbine_rotor_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "602F531CBFA219E3"
+					item: { Count: 8, id: "biggerreactors:turbine_fluid_port" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "51B164D2723790AA"
+					item: { Count: 150, id: "biggerreactors:turbine_rotor_blade" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0862F467D4CE443B"
+					item: { Count: 32, id: "biggerreactors:ludicrite_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "32AB68DFC344D37C"
+					item: { Count: 10, id: "biggerreactors:turbine_rotor_shaft" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "79CE33AD06A20061"
+					item: { Count: 12, id: "biggerreactors:turbine_glass" }
+					type: "item"
+				}
+			]
+			title: "mi primera turbina"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61C8846ED2E4099F"]
+			description: [
+				"{image:galaxyorigenes:textures/viejas/biggerreactors/side_turbine_5x4x5.png width:100 height:100 align:center}"
+				"{image:galaxyorigenes:textures/viejas/biggerreactors/turbine_horizontal_shaft.png width:100 height:100 align:center}"
+				"{image:galaxyorigenes:textures/viejas/biggerreactors/reactor_turbine_example.png width:100 height:100 align:center}"
+			]
+			icon: "biggerreactors:turbine_terminal"
+			id: "1D724AAE550524C7"
+			shape: "gear"
+			title: "Ejemplo Turbina"
+			x: 6.0d
+			y: -3.5d
+		}
+	]
+	title: "Bigger reactors"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Dark Gem Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "evilcraft:dark_block"
+    },
+    "color": "110505",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"   
+     }
+  }

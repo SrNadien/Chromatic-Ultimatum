@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "mekanism:pellet_antimatter" }
+		{
+			item: {
+				Count: 1
+				id: "avaritia:skull_fire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "createaddition:electric_motor", random_bonus: 3, weight: 4.0f }
+		{
+			item: {
+				Count: 1
+				id: "ars_nouveau:wand"
+				tag: { }
+			}
+		}
+	]
+	title: "&5Mythic Reward"
+	use_title: true
+}

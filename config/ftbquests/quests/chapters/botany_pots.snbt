@@ -1,0 +1,156 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "botany_pots"
+	group: "139FFC86F000F225"
+	id: "30351149F939333A"
+	images: [{
+		height: 6.0d
+		image: "custom:textures/botanypotstiers.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 2.0d
+		y: -6.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9Botany Pots&r te permite cultivar tus recursos fácilmente."
+				""
+				"¡Estos maceteros hacen crecer automáticamente casi cualquier cosa que coloques en ellos e incluso se pueden mejorar para automatizarlos!"
+			]
+			id: "01B70A4F230ED036"
+			rewards: [
+				{
+					count: 2
+					id: "0AC970B512BC6821"
+					item: "minecraft:terracotta"
+					type: "item"
+				}
+				{
+					id: "5E4853D67766A132"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1958DBFE401157E6"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "Botany Pots"
+			x: -3.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01B70A4F230ED036"]
+			description: ["Las macetas de la tolva descargarán automáticamente el contenido en el depósito que se encuentra debajo. ¡Esto se puede utilizar para automatizar todos tus cultivos!"]
+			id: "2715BECC5E6FFA64"
+			rewards: [
+				{
+					id: "3CE68937F914479A"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "1AC7BCFCCC100F4C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "572F01124B2232CD"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "Automating the Pots"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2715BECC5E6FFA64"]
+			id: "004F8218EA2763F2"
+			tasks: [{
+				id: "70393C1D968EAFF2"
+				item: "botanypotstiers:elite_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004F8218EA2763F2"]
+			id: "20353C0B6F07995F"
+			tasks: [{
+				id: "11B618DC352765B4"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20353C0B6F07995F"]
+			id: "64C5608B4FDA7C23"
+			tasks: [{
+				id: "6A032F50DCD189E5"
+				item: "botanypotstiers:ultra_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64C5608B4FDA7C23"]
+			id: "1B50BB0E15FCA9AB"
+			tasks: [{
+				id: "4F964A865949B6CD"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B50BB0E15FCA9AB"]
+			hide_until_deps_complete: true
+			id: "16CDC6C7F77839DC"
+			tasks: [{
+				id: "3F53C9EEE6B5A2D2"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "4B9A1FA0B3750B55"
+			tasks: [{
+				id: "69DCF38EE52772DB"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16CDC6C7F77839DC"]
+			hide_dependency_lines: false
+			id: "1A0CDCBD39F09932"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7719335B137F4084"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Botany Pots"
+}

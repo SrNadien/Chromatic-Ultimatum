@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "construction_wands"
+	group: "112AF5F6AB4E63B2"
+	id: "50340DBB22920E5D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "26E2F5140F5173BA"
+			tasks: [{
+				id: "6C69AFF3AB98CFFA"
+				item: "thermal:charcoal_block"
+				title: "Builders Waaands Tete"
+				type: "item"
+			}]
+			title: "Bienvenido A Constructions Wands"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26E2F5140F5173BA"]
+			hide_until_deps_complete: true
+			id: "71BA39B80A45D6B7"
+			tasks: [{
+				id: "7C5EA1A569A182EA"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71BA39B80A45D6B7"]
+			id: "4B6D01C02DE862DB"
+			tasks: [{
+				id: "0D45C7D4320BEA14"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B6D01C02DE862DB"]
+			id: "775DE8C9C644B465"
+			tasks: [{
+				id: "58B397BC42E21468"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["775DE8C9C644B465"]
+			id: "6D082A3AC5AF4741"
+			tasks: [{
+				id: "7AFCB17321BCF20A"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D082A3AC5AF4741"]
+			id: "15343B8E2D0F1FBC"
+			tasks: [{
+				id: "3B33A43C7D1146FD"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D082A3AC5AF4741"]
+			id: "0B5FD5621C35DF2D"
+			tasks: [{
+				id: "74169E355FC09758"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+	]
+	title: "Construction Wands"
+}

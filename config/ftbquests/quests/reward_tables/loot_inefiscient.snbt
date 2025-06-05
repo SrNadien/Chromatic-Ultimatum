@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1
+		id: "ironfurnaces:million_furnace"
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"green\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	id: "06FA457FBD48D472"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ item: "iceandfire:fire_dragon_blood" }
+		{ item: "iceandfire:ice_dragon_blood" }
+		{ item: "iceandfire:lightning_dragon_blood" }
+		{ item: "iceandfire:manuscript" }
+		{ item: "iceandfire:dragon_meal" }
+		{ item: "iceandfire:dragonegg_amythest" }
+		{ item: "iceandfire:dread_key" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword_lightning"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Loot Inefiscient"
+}

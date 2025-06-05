@@ -1,0 +1,13 @@
+{
+    "name": "Twinite Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "thermal_extra:twinite_block"
+    },
+    "color": "de0cf5",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot" 
+     }
+  }

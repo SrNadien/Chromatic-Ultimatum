@@ -1,0 +1,13 @@
+{
+    "name": "Dragon Steel Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "thermal_extra:dragonsteel_block"
+    },
+    "color": "3782dd",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"    
+     }
+  }

@@ -1,0 +1,37 @@
+{
+    "entity": "cataclysm:deepling",
+    "variants": [],
+    "name": "entity.cataclysm.deepling",
+    "name_color": "#A81012",
+    "gui_scale": 0.85,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 768,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.deepling",
+    "fabricator_drops": [
+        {
+            "optional": true,
+            "item": "cataclysm:dying_ember",
+            "count": 2
+        }
+    ],
+    "tier_data": [
+		100,
+        150,
+        200,
+        1200
+    ],
+    "data_per_kill": [
+        50,
+        50,
+        50,
+        240
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AHA",
+    "HSH",
+    "AHA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "S": {
+      "item": "mysticalagradditions:dragon_egg_crux"
+    },
+    "H": {
+      "item": "mysticalagradditions:insanium_ingot_block"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:neutronium_crux"
+  }
+}

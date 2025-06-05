@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "creativo"
+	group: "205F047CD2BF1999"
+	id: "63FBD257753A3D0A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"438C00D0DE3AE054"
+				"5CC2B4CAC75706CB"
+				"56DB006F38587B7F"
+				"106353F1A4253542"
+				"72F2989B0F52DC49"
+				"0F4659E3C5AE3F35"
+				"45C12A5944054E2C"
+				"139E8A1D89C5BB4A"
+				"6748D48D15D2163F"
+				"49977EAF623D9622"
+				"540982AA8AAE0900"
+				"7D0B3690597E0104"
+				"18D7FD19CACEE09B"
+				"44C97DEC9812E35E"
+				"51CEFB7B58439298"
+				"6BCF8A5D353280E1"
+				"2A5F0B4CE31F55B8"
+				"7B8E94FEA48223B3"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1E841BC0E1017240"
+			rewards: [{
+				id: "5655DA6D518A1027"
+				item: "kubejs:trophy_atm"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7ECCA8F225ED0D71"
+				item: "ultimate_utilities:estella_galactica"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B8E94FEA48223B3"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "51CEFB7B58439298"
+			tasks: [{
+				id: "441A095F4BC01E27"
+				item: "ultimate_utilities:catalizador"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51CEFB7B58439298"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "0F4659E3C5AE3F35"
+			tasks: [{
+				id: "7E84250EB337678B"
+				item: "ultimate_utilities:brujula_maldita"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F4659E3C5AE3F35"]
+			hide_until_deps_visible: true
+			id: "56DB006F38587B7F"
+			tasks: [{
+				id: "4136B8E691D9757C"
+				item: "ultimate_utilities:agujero_negro"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["56DB006F38587B7F"]
+			id: "72F2989B0F52DC49"
+			tasks: [{
+				id: "64C2CBF5A71EA88E"
+				item: "ultimate_utilities:alma_de_dragon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72F2989B0F52DC49"]
+			id: "45C12A5944054E2C"
+			tasks: [{
+				id: "426652C4E89C3A52"
+				item: "ultimate_utilities:anti_materia"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45C12A5944054E2C"]
+			id: "44C97DEC9812E35E"
+			tasks: [{
+				id: "39153C3108E65549"
+				item: "ultimate_utilities:combustible_radiactivo"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BCF8A5D353280E1"]
+			hide_dependency_lines: true
+			id: "7D0B3690597E0104"
+			tasks: [{
+				id: "438C00D0DE3AE054"
+				item: "ultimate_utilities:super_semilla"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44C97DEC9812E35E"]
+			hide_until_deps_visible: true
+			id: "6BCF8A5D353280E1"
+			tasks: [{
+				id: "07D6826547A464F6"
+				item: "ultimate_utilities:semilla"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D0B3690597E0104"]
+			id: "540982AA8AAE0900"
+			tasks: [{
+				id: "5731057054FBD54F"
+				item: "ultimate_utilities:planos"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["540982AA8AAE0900"]
+			id: "49977EAF623D9622"
+			tasks: [{
+				id: "5CFEF2327F148910"
+				item: "ultimate_utilities:mini_portal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A5F0B4CE31F55B8"]
+			id: "106353F1A4253542"
+			tasks: [{
+				id: "3A1D6807679F532A"
+				item: "ultimate_utilities:patricio_estrella"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49977EAF623D9622"]
+			id: "2A5F0B4CE31F55B8"
+			tasks: [{
+				id: "0EDA592CB4FFCB4B"
+				item: "ultimate_utilities:muneco_de_paja"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["106353F1A4253542"]
+			id: "139E8A1D89C5BB4A"
+			tasks: [{
+				id: "4066F3E67298B405"
+				item: "ultimate_utilities:buscador_del_universo"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139E8A1D89C5BB4A"]
+			id: "6748D48D15D2163F"
+			tasks: [{
+				id: "729FE3835B897C09"
+				item: "ultimate_utilities:mini_reactor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6748D48D15D2163F"]
+			id: "18D7FD19CACEE09B"
+			tasks: [{
+				id: "75FEB9CC9FC5B42C"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"18D7FD19CACEE09B"
+				"51CEFB7B58439298"
+			]
+			hide_until_deps_visible: true
+			id: "5CC2B4CAC75706CB"
+			tasks: [{
+				id: "79FDE1B20EE6EE80"
+				item: "ultimate_utilities:bob_toronja"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "2820B3E9F65469CD"
+			tasks: [{
+				id: "49A84529D0294D4F"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "3E0A10F586EE3D1F"
+			tasks: [{
+				id: "2D62D35CF2EFFFEE"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "3A5656553C3665F3"
+			tasks: [{
+				id: "6D6C27B86362FFCE"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "33D1DA23C2FBD08A"
+			tasks: [
+				{
+					id: "3F7ADDD13D208DFA"
+					item: "ae2:creative_item_cell"
+					type: "item"
+				}
+				{
+					id: "3440B0FB93FD4D78"
+					item: "ae2:creative_fluid_cell"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "5EFFD92105AB9CC7"
+			tasks: [{
+				id: "60F5B6AD7ECF98F8"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "49FE5D58EA8A5209"
+			tasks: [{
+				id: "6A91BC343695EC78"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "313461D219A59A18"
+			tasks: [{
+				id: "75943524152D756F"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "7E9AD17F6CB4FC45"
+			tasks: [{
+				id: "6490DA2FFD154438"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E841BC0E1017240"]
+			id: "4205103669A48264"
+			tasks: [{
+				id: "05AC39422BBCE0B9"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "7B8E94FEA48223B3"
+			tasks: [{
+				id: "791C4766C462DABD"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 123500000L
+			}]
+			title: "creativo"
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "Creativo"
+}

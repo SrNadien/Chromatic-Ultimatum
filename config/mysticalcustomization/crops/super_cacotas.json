@@ -1,0 +1,13 @@
+{
+    "name": "Super Cacotas",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "ultimate_utilities:super_caca"
+    },
+    "color": "442b1d",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

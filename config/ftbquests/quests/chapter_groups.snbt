@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "7BF5279F75E411BC", title: "Inicios" }
+		{ id: "112AF5F6AB4E63B2", title: "Almacenamiento" }
+		{ id: "37A5A987B8412F7F", title: "Tecnologia" }
+		{ id: "2E1D6118A58B154A", title: "Magia" }
+		{ id: "139FFC86F000F225", title: "Farmeo Y Exploracion" }
+		{ id: "205F047CD2BF1999", title: "End Game" }
+	]
+}

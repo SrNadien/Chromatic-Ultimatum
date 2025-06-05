@@ -1,0 +1,13 @@
+{
+    "name": "Luducrite",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "biggerreactors:ludicrite_block"
+    },
+    "color": "9a7eec",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

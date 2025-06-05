@@ -1,0 +1,41 @@
+#Enable generation for: ad_astra
+enable_ad_astra = true
+#Enable generation for: ae2
+enable_ae2 = true
+#Enable generation for: aether
+enable_aether = true
+#Enable generation for: alexscaves
+enable_alexscaves = true
+#Enable generation for: alexsmobs
+enable_alexsmobs = true
+#Enable generation for: ars_nouveau
+enable_ars_nouveau = true
+#Enable generation for: artifacts
+enable_artifacts = true
+#Enable generation for: biomesoplenty
+enable_biomesoplenty = true
+#Enable generation for: biomeswevegone
+enable_biomeswevegone = true
+#Enable generation for: botania
+enable_botania = true
+#Enable generation for: create
+enable_create = true
+#Enable generation for: epicfight
+enable_epicfight = true
+#Enable generation for: iceandfire
+enable_iceandfire = true
+#Enable generation for: immersiveengineering
+enable_immersiveengineering = true
+#Enable generation for: irons_spellbooks
+enable_irons_spellbooks = true
+#Enable generation for: mowziesmobs
+enable_mowziesmobs = true
+#Enable generation for: naturalist
+enable_naturalist = true
+#Enable generation for: quark
+enable_quark = true
+#Enable generation for: tconstruct
+enable_tconstruct = true
+#Enable generation for: twilightforest
+enable_twilightforest = true
+

@@ -1,0 +1,8 @@
+{
+    type: "registry",
+    location: "create:blaze_burner",
+    absorption: 7.0,
+    efficiency: 7.0,
+    moderation: 7,
+    conductivity: 7,
+}

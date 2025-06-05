@@ -1,0 +1,13 @@
+{
+    "name": "Black Quartz",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "actuallyadditions:black_quartz_block"
+    },
+    "color": "1f1e1e",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

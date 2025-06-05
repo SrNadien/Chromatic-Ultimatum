@@ -1,0 +1,13 @@
+{
+    "name": "Reggar Fonite Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "create_better_motors:reggarfoniteblock"
+    },
+    "color": "44c1e3",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

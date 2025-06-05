@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagradditions:tertium_paxel"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagriculture:tertium_pickaxe"
+    }
+  ],
+  "pattern": [
+    "ABC",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:tertium_axe"
+    },
+    "B": {
+      "item": "mysticalagriculture:tertium_pickaxe"
+    },
+    "C": {
+      "item": "mysticalagriculture:tertium_shovel"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:tertium_paxel"
+  }
+}

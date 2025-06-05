@@ -1,0 +1,986 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "37A5A987B8412F7F"
+	id: "3BBC6E9F403020C5"
+	images: [{
+		height: 5.0d
+		image: "custom:textures/enderio.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: -3.0d
+		y: -14.5d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Los &o&6Grains of Infinity&r&r son esenciales para avanzar en Ender IO. "
+				""
+				"Se obtienen al prender fuego a la Bedrock y esperar a que aparezcan. "
+				""
+				"Son un recurso básico para muchas recetas, "
+				""
+				"&o¡así que asegúrate de recolectar los suficientes!&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "26B6365094280B7A"
+			shape: "octagon"
+			tasks: [{
+				count: 64L
+				id: "020049CDFC77242C"
+				item: { Count: 64, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26B6365094280B7A"]
+			description: [
+				"El &o&3Basic Capacitor&r&r es un componente clave en Ender IO. "
+				""
+				"Se utiliza para mejorar máquinas y crear dispositivos avanzados. "
+				""
+				"Es un elemento fundamental en muchas recetas, por lo que necesitarás fabricarlo en grandes cantidades a medida que progresas en el mod."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "6C2A815B86958B26"
+			tasks: [{
+				id: "3106DCAC08ED4F6C"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EDE46064F0F30D6"]
+			description: [
+				"El &o&9Basic Capacitor Bank&r&r es un bloque esencial para almacenar energía en Ender IO."
+				""
+				"Puede acumular grandes cantidades de RF (Redstone Flux) y permite distribuirla de manera eficiente entre tus máquinas. "
+				""
+				"&o&7Es una herramienta vital para gestionar tu red energética de manera óptima.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "5A55E5084D13EF6E"
+			tasks: [{
+				id: "21B1988EF29965BB"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A55E5084D13EF6E"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "081BBA612ECC8D19"
+			tasks: [{
+				id: "53FB74EB65AD4937"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["081BBA612ECC8D19"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "75388554EB199FBA"
+			tasks: [{
+				id: "15A32B9D2CBC61AE"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26B6365094280B7A"]
+			description: [
+				"La &o&3Primitive Alloy Smelter&r&r es tu primer paso hacia la creación de aleaciones en &3Ender IO&r. "
+				""
+				"Aunque es más lenta y menos eficiente que versiones avanzadas, es esencial para combinar metales y crear materiales clave necesarios para progresar en el mod. "
+				""
+				"&o&7Úsala para iniciar tu camino en la fabricación de componentes avanzados&r.&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "60E2EFE40029F5C0"
+			tasks: [{
+				id: "0D43C100E2FDE339"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68DAB63372D7BA79"]
+			description: [
+				"El &6&oAlloy Smelter&r&r es una máquina avanzada en Ender IO que combina metales y materiales para crear aleaciones. "
+				""
+				""
+				"A diferencia de la Primitive Alloy Smelter, esta versión es más eficiente y rápida, facilitando la producción de componentes complejos y mejorados para tus tecnologías."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "5A12F6987037A58C"
+			tasks: [{
+				id: "5A36909832E20E44"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A12F6987037A58C"]
+			description: [
+				"El &b&oSAG Mill&r&r es una máquina que muele materiales para obtener productos secundarios y recursos adicionales. "
+				""
+				"Utiliza energía para procesar minerales y otros materiales."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "146B2C4DCF224F0D"
+			tasks: [{
+				id: "02AC8FAAC0EC9660"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79FDEBFC5B997DCC"]
+			description: [
+				"El &eSlice'N'Splice&r se utiliza para combinar y modificar los genes de los cultivos y animales. "
+				""
+				"&o&7Permite la creación de nuevas variantes y mejoras en los recursos biológicos&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4AA5FC6E6C4A378E"
+			tasks: [{
+				id: "553721647576FF40"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["146B2C4DCF224F0D"]
+			description: [
+				"El Ensouled Chassis es un componente que se utiliza para crear dispositivos y máquinas avanzadas. "
+				""
+				"&o&7Permite la integración de diversas funciones y módulos en un solo chasis, facilitando la construcción de sistemas tecnológicos complejos y personalizados.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "79FDEBFC5B997DCC"
+			tasks: [{
+				id: "18873BE715C01328"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FDEBFC5B997DCC"]
+			description: [
+				"El &6&oSoul Binder&r&r se utiliza para combinar souls (almas) con objetos o entidades, creando componentes avanzados o encantados. "
+				""
+				""
+				"&o&7Es esencial para la fabricación de dispositivos y herramientas que requieren habilidades o propiedades especiales.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "1F6252E3BC7FEC2D"
+			tasks: [{
+				id: "6890821D1239CE95"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C2A815B86958B26"]
+			description: [
+				"El &o&9Stirling Generator&r&r es una fuente básica de energía en Ender IO. "
+				""
+				"Utiliza carbón o cualquier otro combustible sólido para generar RF (Redstone Flux), que alimentará tus máquinas y dispositivos. "
+				""
+				"&o&7Es una opción eficiente para comenzar a producir energía en las primeras etapas del mod&r.&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "1EDE46064F0F30D6"
+			tasks: [{
+				id: "151E95ADE97AFFEA"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26B6365094280B7A"]
+			description: [
+				"El &e&oVoid Chassis&r&r se utiliza para crear estructuras y sistemas complejos. "
+				""
+				"Permite la integración de varios módulos y componentes, ofreciendo una base sólida para construir maquinaria avanzada y sistemas de red. "
+				""
+				"&o&7Es esencial para personalizar y expandir tus instalaciones tecnológicas.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "68DAB63372D7BA79"
+			tasks: [{
+				id: "33E7F3924CC19922"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4AA5FC6E6C4A378E"
+				"1F6252E3BC7FEC2D"
+			]
+			description: [
+				"El &3&oPowered Spawner&r&r es un spawner del Ender IO. "
+				""
+				"Utiliza energía para generar mobs a partir de spawner shards, lo que facilita la crianza y el manejo de criaturas en tu base para obtener recursos y experiencia de manera eficiente."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "523CF83E25AE6974"
+			tasks: [{
+				id: "3692F9C8EE96E79A"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A12F6987037A58C"]
+			description: [
+				"El &o&cFused Quartz&r&r es un material que se utiliza para crear bloques y componentes avanzados."
+				""
+				"&o&7Se obtiene al fundir Nether Quartz en un horno, y se emplea en la fabricación de diversos elementos tecnológicos y decorativos en el mod.&r"
+				"&r"
+				"El &o&dClear Glass&r&r es un material que se obtiene al fundir Glass en un horno sin tintes."
+				""
+				"&o&7Se utiliza para crear bloques de vidrio transparente sin bordes visibles, ideal para construcciones y diseños donde se requiere una apariencia limpia y sin interrupciones.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "63FD7B697C4AD2C6"
+			tasks: [
+				{
+					id: "0A73733C9A5B1BE3"
+					item: "enderio:fused_quartz"
+					type: "item"
+				}
+				{
+					id: "6D579BBEC7B5931A"
+					item: "enderio:clear_glass"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7689852F50CC5A96"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "1628C03FC3C1425F"
+			tasks: [{
+				id: "2F0C1BD0B5D2D0F5"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["43764432EAE3BDB6"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "7689852F50CC5A96"
+			tasks: [{
+				id: "1EF23FECABF0A367"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["63FD7B697C4AD2C6"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "43764432EAE3BDB6"
+			tasks: [{
+				id: "2CD4842202F52E4C"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43764432EAE3BDB6"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "568F7F5798509347"
+			tasks: [{
+				id: "38AD2FD5F3A41E20"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["568F7F5798509347"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "5049EF7340866453"
+			tasks: [
+				{
+					id: "378659582CFE34D9"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "60B88562D86E9808"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5049EF7340866453"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "39F43DB830F20ABB"
+			tasks: [{
+				id: "6FE4D4749544AC10"
+				item: "enderio:fluid_tank"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39F43DB830F20ABB"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "6B93D28BF8485496"
+			tasks: [{
+				id: "24DB93B01D6C4612"
+				item: "enderio:pressurized_fluid_tank"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B93D28BF8485496"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "43DDC678AB972000"
+			tasks: [{
+				id: "7854CC2ACA9E07E2"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43DDC678AB972000"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4F4A79A75B49F720"
+			tasks: [{
+				id: "58790940C1C46536"
+				item: "enderio:pressurized_fluid_conduit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4A79A75B49F720"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "35FC7671EF6C410B"
+			tasks: [{
+				id: "531EE1D06E32D7AA"
+				item: "enderio:ender_fluid_conduit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43764432EAE3BDB6"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "2D83F64FCEEEE2B2"
+			tasks: [{
+				id: "2F41D2F5F2D280A1"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D83F64FCEEEE2B2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4419484ED6CE810B"
+			tasks: [{
+				id: "1CBA695F5E6E8FEA"
+				item: "enderio:extraction_speed_upgrade_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D83F64FCEEEE2B2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "65AD3B7B1FC15499"
+			tasks: [{
+				id: "5AA83DFC0B309CE5"
+				item: "enderio:extraction_speed_upgrade_2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D83F64FCEEEE2B2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "2CBD2A224F15F27C"
+			tasks: [{
+				id: "43B2A7B6355351A3"
+				item: "enderio:extraction_speed_upgrade_3"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4419484ED6CE810B"
+				"65AD3B7B1FC15499"
+				"2CBD2A224F15F27C"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4784DA789E883EE1"
+			tasks: [{
+				id: "538A077311C42D30"
+				item: "enderio:extraction_speed_upgrade_4"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75388554EB199FBA"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "3C8C988F771BA4CE"
+			tasks: [{
+				id: "4CFFA838F0F4615D"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1628C03FC3C1425F"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "0728FC34612B33F5"
+			tasks: [{
+				id: "44AE83867F2FBB1A"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2D83F64FCEEEE2B2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "7CBA46052865A36D"
+			tasks: [{
+				id: "2F4072427CB520BB"
+				item: "enderio:me_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CBA46052865A36D"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "42C45829FBE86CF1"
+			tasks: [{
+				id: "46D0E4D377B2C547"
+				item: "enderio:me_conduit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35FC7671EF6C410B"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "7FF68BA5C7DC47AB"
+			tasks: [{
+				id: "00B3228463D727F2"
+				item: "enderio:chemical_conduit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35FC7671EF6C410B"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "05F4EDA0A49BC457"
+			tasks: [{
+				id: "63B8362147594627"
+				item: "enderio:pressurized_chemical_conduit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FC7671EF6C410B"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "0C4B030AB0A40FE5"
+			tasks: [{
+				id: "207A0F3DE9762E9D"
+				item: "enderio:ender_chemical_conduit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7FF68BA5C7DC47AB"
+				"0C4B030AB0A40FE5"
+				"05F4EDA0A49BC457"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "58986E749FAEEA5E"
+			tasks: [{
+				id: "076687EB690F4CF8"
+				item: "enderio:heat_conduit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F6252E3BC7FEC2D"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "33C0DCEFBCEABA13"
+			tasks: [
+				{
+					id: "67C4B8CCA6737044"
+					item: "enderio:empty_soul_vial"
+					type: "item"
+				}
+				{
+					id: "0FE6448A7A1C790A"
+					item: "enderio:pulsating_crystal"
+					type: "item"
+				}
+				{
+					id: "4AD405C0588124BE"
+					item: "enderio:vibrant_crystal"
+					type: "item"
+				}
+				{
+					id: "09B80EA4AD5F7EB6"
+					item: "enderio:ender_crystal"
+					type: "item"
+				}
+				{
+					id: "75B2327AA76B1CB8"
+					item: "enderio:enticing_crystal"
+					type: "item"
+				}
+				{
+					id: "02F902A05345E4B0"
+					item: "enderio:weather_crystal"
+					type: "item"
+				}
+				{
+					id: "2A81DA8B97F85EB7"
+					item: "enderio:prescient_crystal"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AA5FC6E6C4A378E"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "6244534F586D43A2"
+			tasks: [{
+				id: "4B26B697F959E0C2"
+				item: "enderio:zombie_electrode"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6244534F586D43A2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4F45238F430DCE68"
+			tasks: [{
+				id: "2D67D4B2F94A798C"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F45238F430DCE68"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "74284B3A59D0C3F1"
+			tasks: [{
+				id: "141C38CBFCE79399"
+				item: "enderio:frank_n_zombie"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74284B3A59D0C3F1"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "61318651F4BA0524"
+			tasks: [{
+				id: "5092BA6811E7533D"
+				item: "enderio:ender_resonator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["61318651F4BA0524"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "33918D709F1ED186"
+			tasks: [{
+				id: "48427EB9E2536E6C"
+				item: "enderio:sentient_ender"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C2A815B86958B26"]
+			description: [
+				"El &9&oDouble Layer Capacitor&r&r es una mejora avanzada en Ender IO. "
+				""
+				"Aumenta la eficiencia y la velocidad de las máquinas que lo utilizan, permitiendo un rendimiento superior. "
+				""
+				"Es crucial para optimizar tus procesos y avanzar en la creación de tecnologías más complejas."
+			]
+			id: "6EE3CFB817C62BB9"
+			tasks: [{
+				id: "16B9D4C326847656"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EE3CFB817C62BB9"]
+			description: [
+				"El &a&oOctadic Capacitor&r&r es la mejora definitiva en Ender IO. "
+				""
+				"Maximiza la eficiencia y velocidad de las máquinas, llevándolas a su máximo potencial. "
+				""
+				"Es un componente imprescindible para aquellos que buscan optimizar al máximo su base tecnológica."
+			]
+			id: "5BB07AF97101D626"
+			tasks: [{
+				id: "66A83DAF833A49BE"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A12F6987037A58C"]
+			description: [
+				"Las &dAleaciones&r en son combinaciones de metales y materiales que se crean en el Alloy Smelter. "
+				""
+				"&o&7Estos materiales avanzados se utilizan para fabricar componentes y dispositivos tecnológicos, mejorando la capacidad y eficiencia de tus máquinas y sistemas.&r&r"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "24942A027B9CAAC7"
+			tasks: [
+				{
+					id: "0ACE6062380D4CA5"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "3F0D7D9130928FBF"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1C8F3EAEA5FF3DC9"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "17A50FC8C50A3D10"
+					item: "enderio:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "12329DCA6AA27972"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1DE62AFAFFDB8D65"
+					item: "enderio:pulsating_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "5B53BDBC534DF37C"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "6DF6ABC074BD471E"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "539A46AA8DB5554A"
+					item: "enderio:end_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "432B10F3F57CBA3F"
+					item: "enderio:nethercotta"
+					type: "item"
+				}
+			]
+			title: "Aleaciones"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EDE46064F0F30D6"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "64BE465EE71086FA"
+			tasks: [{
+				id: "4FC01363D5E18EEF"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64BE465EE71086FA"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4D6FFDFD9569E827"
+			tasks: [{
+				id: "3FC97783CE5412AF"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D6FFDFD9569E827"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "67FB5FD9CBB0C5E7"
+			tasks: [{
+				id: "7945156C917A4EC3"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26B6365094280B7A"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "4CE8A90D552FEFE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6767BB06A59F76FF"
+				table_id: 5732720527208867466L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "204BCB236163F6E4"
+				item: "enderio:wood_gear"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4CE8A90D552FEFE8"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "223280FA3BD7BA96"
+			tasks: [{
+				id: "63B5E9CE6182DB15"
+				item: "enderio:stone_gear"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["223280FA3BD7BA96"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "66A3A0EAD7B8682A"
+			tasks: [{
+				id: "2DBD0C69A52BA21A"
+				item: "enderio:iron_gear"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["66A3A0EAD7B8682A"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "34EBA7D4E5440709"
+			tasks: [{
+				id: "3C14DF8EDA4645DE"
+				item: "enderio:energized_gear"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34EBA7D4E5440709"]
+			hide_until_deps_visible: true
+			id: "2C4C56A7B476DE4E"
+			tasks: [{
+				id: "4D7FF56B46E0C254"
+				item: "enderio:vibrant_gear"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2C4C56A7B476DE4E"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "769BEB104E5850AB"
+			tasks: [{
+				id: "41983358ABA3309A"
+				item: "enderio:dark_bimetal_gear"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["35FC7671EF6C410B"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "2E245AE1634989BF"
+			tasks: [{
+				id: "57729908A1ABCD1D"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+	]
+	title: "Ender IO"
+}

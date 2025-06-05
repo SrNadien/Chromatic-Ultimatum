@@ -1,0 +1,13 @@
+{
+    "name": "Shellite Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "thermal_extra:shellite_block"
+    },
+    "color": "4f12b1",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

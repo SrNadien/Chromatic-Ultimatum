@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagradditions:imperium_paxel"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagriculture:imperium_pickaxe"
+    }
+  ],
+  "pattern": [
+    "ABC",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:imperium_axe"
+    },
+    "B": {
+      "item": "mysticalagriculture:imperium_pickaxe"
+    },
+    "C": {
+      "item": "mysticalagriculture:imperium_shovel"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:imperium_paxel"
+  }
+}

@@ -1,0 +1,179 @@
+{
+	icon: "betterfurnacesreforged:ultimate_ore_processing_upgrade"
+	id: "186BAA30DA3CB850"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "betterfurnacesreforged:raw_ore_processing_upgrade" }
+		{ item: "betterfurnacesreforged:advanced_fuel_efficiency_upgrade" }
+		{ item: "betterfurnacesreforged:ultimate_ore_processing_upgrade" }
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:factory_upgrade"
+				tag: {
+					AutoIO: [I;
+						0
+						0
+					]
+					Redstone: [I;
+						0
+						0
+					]
+					Settings: [I;
+						2
+						1
+						4
+						4
+						4
+						4
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:piping_upgrade"
+				tag: {
+					AutoIO: [I;
+						0
+						0
+					]
+					Redstone: [I;
+						0
+						0
+					]
+					Settings: [I;
+						2
+						1
+						4
+						4
+						4
+						4
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:autooutput_upgrade"
+				tag: {
+					AutoIO: [I;
+						0
+						0
+					]
+					Redstone: [I;
+						0
+						0
+					]
+					Settings: [I;
+						2
+						1
+						4
+						4
+						4
+						4
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:autoinput_upgrade"
+				tag: {
+					AutoIO: [I;
+						0
+						0
+					]
+					Redstone: [I;
+						0
+						0
+					]
+					Settings: [I;
+						2
+						1
+						4
+						4
+						4
+						4
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:redstone_signal_upgrade"
+				tag: {
+					AutoIO: [I;
+						0
+						0
+					]
+					Redstone: [I;
+						0
+						0
+					]
+					Settings: [I;
+						2
+						1
+						4
+						4
+						4
+						4
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:color_upgrade"
+				tag: {
+					blue: 255
+					green: 255
+					red: 255
+				}
+			}
+		}
+		{ item: "betterfurnacesreforged:extreme_upgrade" }
+		{ item: "betterfurnacesreforged:netherhot_upgrade" }
+		{ item: "betterfurnacesreforged:diamond_upgrade" }
+		{ item: "betterfurnacesreforged:gold_upgrade" }
+		{ item: "betterfurnacesreforged:iron_upgrade" }
+		{ item: "betterfurnacesreforged:platinum_netherhot_upgrade" }
+		{ item: "betterfurnacesreforged:platinum_upgrade" }
+		{ item: "betterfurnacesreforged:amethyst_diamond_upgrade" }
+		{ item: "betterfurnacesreforged:amethyst_upgrade" }
+		{ item: "betterfurnacesreforged:steel_gold_upgrade" }
+		{ item: "betterfurnacesreforged:steel_upgrade" }
+		{ item: "betterfurnacesreforged:copper_iron_upgrade" }
+		{ item: "betterfurnacesreforged:copper_upgrade" }
+		{ item: "betterfurnacesreforged:energy_upgrade" }
+		{ item: "betterfurnacesreforged:generator_upgrade" }
+		{ item: "betterfurnacesreforged:smoking_upgrade" }
+		{ item: "betterfurnacesreforged:blasting_upgrade" }
+		{ item: "betterfurnacesreforged:advanced_ore_processing_upgrade" }
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:fuel_efficiency_upgrade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:ore_processing_upgrade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Las mejora (Hornos)"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Fire Dragon Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "iceandfire:dragonsteel_fire_block"
+    },
+    "color": "fb6e26",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

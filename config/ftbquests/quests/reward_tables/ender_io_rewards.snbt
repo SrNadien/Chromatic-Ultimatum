@@ -1,0 +1,45 @@
+{
+	icon: "enderio:sentient_ender"
+	id: "4F8EB6F23CDFE68A"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "enderio:copper_alloy_ingot" }
+		{ item: "enderio:energetic_alloy_ingot" }
+		{ item: "enderio:vibrant_alloy_ingot" }
+		{ item: "enderio:redstone_alloy_ingot" }
+		{ item: "enderio:redstone_alloy_ingot" }
+		{ item: "enderio:conductive_alloy_ingot" }
+		{ item: "enderio:pulsating_alloy_ingot" }
+		{ item: "enderio:dark_steel_ingot" }
+		{ item: "enderio:soularium_ingot" }
+		{ item: "enderio:end_steel_ingot" }
+		{ item: "enderio:basic_capacitor" }
+		{ item: "enderio:sentient_ender" }
+		{ item: "enderio:ender_resonator" }
+		{ item: "enderio:z_logic_controller" }
+		{ item: "enderio:zombie_electrode" }
+		{ item: "enderio:frank_n_zombie" }
+		{ item: "enderio:guardian_diode" }
+		{ item: "enderio:nethercotta" }
+		{ item: "enderio:wood_gear" }
+		{ item: "enderio:stone_gear" }
+		{ item: "enderio:energized_gear" }
+		{ item: "enderio:vibrant_gear" }
+		{ item: "enderio:dark_bimetal_gear" }
+		{ item: "enderio:pulsating_crystal" }
+		{ item: "enderio:vibrant_crystal" }
+		{ item: "enderio:ender_crystal" }
+		{ item: "enderio:enticing_crystal" }
+		{ item: "enderio:weather_crystal" }
+		{ item: "enderio:prescient_crystal" }
+		{ item: "enderio:fluid_tank" }
+		{ item: "enderio:pressurized_fluid_tank" }
+		{ item: "enderio:reinforced_obsidian_block" }
+		{ item: "enderio:void_chassis", random_bonus: 4 }
+		{ item: "enderio:ensouled_chassis", random_bonus: 4 }
+		{ item: "enderio:grains_of_infinity", random_bonus: 16 }
+		{ item: "enderio:silicon", random_bonus: 16 }
+	]
+	title: "Ender IO Rewards"
+}

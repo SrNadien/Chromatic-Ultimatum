@@ -1,0 +1,8 @@
+{
+    type: "registry",
+    location: "draconicevolution:draconium_block",
+    absorption: 8.0,
+    efficiency: 8.0,
+    moderation: 8,
+    conductivity: 8,
+}

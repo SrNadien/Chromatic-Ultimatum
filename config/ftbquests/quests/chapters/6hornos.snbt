@@ -1,0 +1,666 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6hornos"
+	group: "112AF5F6AB4E63B2"
+	id: "7644A360E010EF52"
+	images: [{
+		height: 5.0d
+		image: "custom:textures/tquests/hornosfur.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: 0.5d
+		y: -2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A865A253FD20BE5"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "33556DA9935302E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2808DB947F1A088C"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "0149681BCEABAC18"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "50D646F15A2F10B5"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33556DA9935302E3"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "027E99CD19F24B63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41C24B01DE665F1F"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "4E41DA68AB33C209"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "589282FB7D32999B"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "42E3F624B4E7D564"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C7DA37955E96D3B"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "7F07251A6131C3FF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "6BAB0D371D6A3657"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "5A865A253FD20BE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1039DC87F9C83D5B"
+					ignore_reward_blocking: true
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "7825646C641F0503"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "4FFB85F64A851F39"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["027E99CD19F24B63"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6546E250B80F229D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6229B14EA420D3C9"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "20E52E7C679DA44A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "03FB3E95F21C22DA"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6546E250B80F229D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "44354DC72EC15279"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F9A259821D06E99"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "5F8E5094A2E95FE9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "5B67FD8A2E919FF6"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C803C01EE04AB42"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1D14AA15441891D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FA489B14D1F291B"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "769AD77F18841420"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "19303074070FAC2B"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D14AA15441891D7"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3FDC56BA3CCA1185"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BAA42E442CCCE51"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "114B831862232F2C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "67C2431F6A6C0A72"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FDC56BA3CCA1185"]
+			description: ["{image:#FFFFFF width:100 height:100 align:1}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2B5339F0CC1E6DC9"
+			rewards: [
+				{
+					id: "6E569EC8E50AE2B2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A0B7C9AA3484BD7"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "707CAB75332CC359"
+				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B5339F0CC1E6DC9"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6001548F10B637DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D0970C31056BFE2"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "6B757A75BCCC67D9"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+			]
+			tasks: [{
+				id: "72AC56B685AB56B8"
+				item: "ironfurnaces:vibranium_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6001548F10B637DE"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2A58CECF915735A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D35361E1F056B4A"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "4B4D1CCE76D5B018"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+			]
+			tasks: [{
+				id: "15C890F7521B2684"
+				item: "ironfurnaces:unobtainium_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FDC56BA3CCA1185"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4CF40CF600F0938D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77D31136241929A0"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "5C4CC4288DB3D9C4"
+					type: "xp_levels"
+					xp_levels: 80
+				}
+			]
+			tasks: [{
+				id: "178FA57172371357"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FDC56BA3CCA1185"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3A346F6879381CAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "746B5740246BAC94"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "666722D0355A56B8"
+					type: "xp_levels"
+					xp_levels: 80
+				}
+			]
+			tasks: [{
+				id: "3DB8402F701FD45C"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3A346F6879381CAC"
+				"4CF40CF600F0938D"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "73EC101E8CAD06DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60D8E237921D2E6A"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "2DAF45B535C9D68C"
+					type: "xp_levels"
+					xp_levels: 80
+				}
+			]
+			tasks: [{
+				id: "356229AF66BA0FBD"
+				item: {
+					Count: 1
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["73EC101E8CAD06DF"]
+			description: ["Para obtenerlo debes explotar un rainbow furnace con tnt o un creeper"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5BD18D2D61FFA805"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F165DFF350126DF"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "24167068329E0A4E"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "74C571BD6F127721"
+					table_id: 502790723344061554L
+					team_reward: false
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7EF04B0A8D7A8A8F"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "04AE5A791E9ACCF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16D240CE1239C96A"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "6726BB8E2F84B96A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "7ECCCC775575280B"
+				item: "ironfurnaces:heater"
+				type: "item"
+			}]
+			title: "Transmisor Por WIFI"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1E32DADEDB1C0492"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B3FE1AD22A0107E"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "668C5C5CB1811206"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "7AEEB2A9D2CC2BEF"
+				item: "ironfurnaces:item_heater"
+				type: "item"
+			}]
+			title: "Receptor WIFI"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6C1276CDDD4C000F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EAA344BACDA4576"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "21BB10D645B1F22C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "612EFBC8F651B194"
+				item: "ironfurnaces:item_copy"
+				type: "item"
+			}]
+			title: "Linkeador WIFI"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "663B03CFCF619C5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C16CA7117744F68"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "7808138063F51CC1"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "4D5DD7CBA94E2353"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			title: "Mejora De Alto Horno"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "40538D04C2AA9E89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E2873FBB983E2E6"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "4CD9A1E0B5EFFF5C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "53AA166A4474D695"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			title: "Mejora De Ahumador"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4966F0C88B0E3FDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66803FB6A083047F"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "19F7858AC2C3BDF5"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "09EF36AF28962252"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			title: "Mejora Generación De Energia"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "31C2622C4D9A8015"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "546F41BD0A0BA173"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "575220B0F08CF3F0"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "296DB024226AE827"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			title: "Mejora De Velocidad"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42E3F624B4E7D564"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1CD71CC3835D445E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13F82CFD44DA2611"
+					table_id: 3726056011022498342L
+					type: "loot"
+				}
+				{
+					id: "0DB58F1492983DDD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "420B006B5D3235C4"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			title: "Mejora De Eficiencia De Fuel"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6546E250B80F229D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			id: "5C803C01EE04AB42"
+			tasks: [{
+				id: "4E907CF61EC10069"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "&6Hornos"
+}

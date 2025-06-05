@@ -1,0 +1,13 @@
+{
+    "name": "Spirit Gem",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "occultism:spirit_campfire"
+    },
+    "color": "086bf1",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

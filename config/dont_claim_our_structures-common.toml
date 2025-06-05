@@ -1,0 +1,7 @@
+#A list of structures that can be claimed using FTB Chunks
+allowed_structures = []
+#Whether the mod should affect singleplayer worlds
+affect_singleplayer = false
+#Whether the mod only affect surface structures
+onlySurfaceStructures = true
+

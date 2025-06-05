@@ -1,0 +1,13 @@
+{
+    "name": "Hell Forged Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "bloodmagic:dungeon_metal"
+    },
+    "color": "94A096",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

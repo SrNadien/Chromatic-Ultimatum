@@ -1,0 +1,1194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "tinkers"
+	group: "37A5A987B8412F7F"
+	id: "6154EAEF16709262"
+	images: [{
+		height: 6.0d
+		image: "custom:textures/tinkersconstruct.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 3.0d
+		y: -4.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "2615173C544E8EFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A14E1985FC57C07"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70BCFF9A16E374C5"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2615173C544E8EFF"]
+			id: "5CDADF66EFD7FFF5"
+			tasks: [{
+				id: "04EC67E32F5A79A6"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CDADF66EFD7FFF5"]
+			id: "3D6885F80F97B72E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03FB81F9BAAF1629"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30D3A0C61F58025A"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D6885F80F97B72E"]
+			id: "1FC53C96CEA94B99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402B413BBE2AFC5B"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E32EE1A3BD0B98F"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D6885F80F97B72E"]
+			id: "1929586799C7AE48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E5892CE22AB618A"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E0D85B385D57CD8"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D6885F80F97B72E"]
+			id: "72B42A5E79139C31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11BF44CBEF36D028"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6BDE378F0CFAAC5D"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A530B6CB7482FC1"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A1DC6CD47485557"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72B42A5E79139C31"]
+			id: "6679969282A00E76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A16B6F6AF5671BD"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52358176BC164941"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:rock"
+							"tconstruct:rock"
+							"tconstruct:rock"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:stonebound"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 117.0f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:mining_speed": 4.2f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6679969282A00E76"]
+			id: "5195692FEC62F503"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013781AD681C117D"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53D02AA461185201"
+				item: {
+					Count: 1
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6679969282A00E76"]
+			id: "35040DF33CB5A83E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43B73706DD8559B2"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 250L
+				id: "33AA7A1B33BAA6E9"
+				item: { Count: 250, id: "tconstruct:grout" }
+				type: "item"
+			}]
+			title: "Grout"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35040DF33CB5A83E"]
+			id: "38AF6D9BD83FFFEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D9F08B3A1BCC02"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "441C3413376AE88F"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+				{
+					id: "463E1DED5E1FC75C"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38AF6D9BD83FFFEA"]
+			id: "2E6DC520DB8D4ABA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762DC62D1DECCEFE"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "52B4407B210D7B29"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "5ADA947DB7557122"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "5AB803E6669FF667"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40921F7B30C09C9F"]
+			id: "0D747956FD41B0C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65401F5656141F26"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					count: 250L
+					id: "0DD33AAB0F58708E"
+					item: { Count: 250, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0ADE329745210C8A"
+					item: { Count: 8, id: "tconstruct:seared_drain" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "508BA2FCE505F066"
+					item: { Count: 8, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1A53335E010ADF3C"
+					item: { Count: 8, id: "tconstruct:seared_table" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "48BCE93487B1760B"
+					item: { Count: 8, id: "tconstruct:seared_basin" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "03C5A04FD456C5A0"
+					item: { Count: 4, id: "tconstruct:seared_fuel_tank" }
+					type: "item"
+				}
+				{
+					id: "1AAD45F6640C82F2"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+			]
+			title: "Fundidora Mas Grande"
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E6DC520DB8D4ABA"]
+			id: "40921F7B30C09C9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28E43F182B0AB3F8"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5AA1EB532D72A6F7"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E6DC520DB8D4ABA"]
+			id: "5139B1A7E8A333B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "455E6DDE804A6D62"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4747F64C41BEF722"
+				item: "tconstruct:blank_sand_cast"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E6DC520DB8D4ABA"]
+			id: "32A377A272E502D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D6DD04F39B73E3"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B086425794940CC"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D747956FD41B0C3"]
+			id: "529FC123834BF92B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF343A2586A9BB0"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C509E175DEBD731"
+				item: "tconstruct:blood_slime_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D747956FD41B0C3"]
+			id: "426493DB2FA5A39B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A782F4246614048"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78164766640CEF34"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D747956FD41B0C3"]
+			id: "107D3BE4B256EB27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43667E94DDDF387E"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49156989D98D2344"
+				item: "tconstruct:seared_duct"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["692CCEABA140804B"]
+			id: "0E2828B71F856338"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B8AD746059DC96"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "660CE4C0B3638790"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "alltheores:signalum_block"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"426493DB2FA5A39B"
+				"529FC123834BF92B"
+				"107D3BE4B256EB27"
+			]
+			id: "692CCEABA140804B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "434638DB4D2BDAAE"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "06D1E909C13D6503"
+				item: "thermal:signalum_block"
+				type: "item"
+			}]
+			title: "Aleaciones"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E2828B71F856338"]
+			id: "304B36B5A53E7122"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370627DF6438DB9C"
+				table_id: 3056314490522756933L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "20A97B8D8BC1825A"
+				item: { Count: 32, id: "tconstruct:nether_grout" }
+				type: "item"
+			}]
+			title: "Mortero Del Nether"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["304B36B5A53E7122"]
+			id: "4A1C324643FB42C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EDC1EF0F4239E7D"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54615A8107517A0F"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["304B36B5A53E7122"]
+			id: "19952A37E71FC127"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BA0A6CB31DC281C"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "06517754BD7163E7"
+				item: { Count: 16, id: "tconstruct:scorched_brick" }
+				type: "item"
+			}]
+			title: "Ladrillo Chamuscao"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19952A37E71FC127"]
+			id: "2AEC88361F86B60B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ADABBDFBAD24389"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "548778C186A0C619"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "5EFF49C5111C729F"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "7E207ABF7D396591"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AEC88361F86B60B"]
+			icon: "tconstruct:foundry_controller"
+			id: "2174DA3E87E94859"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D4490838C430D41"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "57A5DAE1084AA283"
+					item: { Count: 16, id: "tconstruct:scorched_bricks" }
+					type: "item"
+				}
+				{
+					id: "34854C03C5D3142C"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "0A88272B4A20387B"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "770B08B22A9D3AEF"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5F129ED9E2115AC2"
+					item: { Count: 3, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+				{
+					id: "05D5D40D15139AF2"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2174DA3E87E94859"]
+			id: "508D1D268FCFBD3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "672C0C4716967ADC"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "10101F20EA8CFE3B"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "77BC8CFA9558B2F9"
+					item: "tconstruct:scorched_duct"
+					type: "item"
+				}
+				{
+					id: "4E4852573D48DED9"
+					item: "tconstruct:scorched_glass"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2174DA3E87E94859"]
+			id: "2EEE762ACD31AF6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EA68358658BAA89"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "21913842B437B356"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3259517646ADF6FA"
+					item: { Count: 2, id: "tconstruct:scorched_ingot_tank" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2174DA3E87E94859"]
+			id: "64BC584E68E2F246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BEF8AEEE2A5651A"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F31412160B9FE7F"
+				item: "tconstruct:blaze_head"
+				type: "item"
+			}]
+			title: "Sangre De Blaze"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64BC584E68E2F246"]
+			id: "2106246254AB9A68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D973901BD79FCF"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DBE966BAB1260D6"
+				item: "allthemodium:soul_lava_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2106246254AB9A68"]
+			id: "30BE5613F6DCC51B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37B28E0DEB560F80"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0E291D65C09690CB"
+					item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "09469A30D60BAE8A"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "2D20CC6EE7A502EF"
+					item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "Aleaciones modio"
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E2828B71F856338"]
+			id: "01DDA720480DB99B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3730523E094686C1"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1F18B108B1067EB9"
+					item: {
+						Count: 1
+						id: "tconstruct:broad_axe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:stripping"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.65f
+								"tconstruct:durability": 4.25f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 11.55f
+								"tconstruct:attack_speed": 0.6f
+								"tconstruct:durability": 1168.75f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1255A119BB881295"
+					item: {
+						Count: 1
+						id: "tconstruct:sledge_hammer"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:smite"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.35f
+								"tconstruct:durability": 4.0f
+								"tconstruct:mining_speed": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 6.75f
+								"tconstruct:attack_speed": 0.75f
+								"tconstruct:durability": 1100.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 2.4f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D462F3DCEFA8AE6"
+					item: {
+						Count: 1
+						id: "tconstruct:excavator"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:knockback"
+								}
+								{
+									level: 1
+									name: "tconstruct:pathing"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.2f
+								"tconstruct:durability": 3.75f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 4.2000003f
+								"tconstruct:durability": 1031.25f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E6D6C0992FAAA26"
+					item: {
+						Count: 1
+						id: "tconstruct:scythe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:tilling"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+								{
+									level: 1
+									name: "tconstruct:harvest"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 2.5f
+								"tconstruct:mining_speed": 0.45f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:attack_speed": 0.7f
+								"tconstruct:durability": 687.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 2.6999998f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CB821BFE208E73C"
+					item: {
+						Count: 1
+						id: "tconstruct:vein_hammer"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:pierce"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 5.0f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.5f
+								"tconstruct:attack_speed": 0.85f
+								"tconstruct:durability": 1375.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E22CC7323750E72"
+					item: {
+						Count: 1
+						id: "tconstruct:cleaver"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:severing"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+								"tconstruct:mining_speed": 0.25f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.5f
+								"tconstruct:durability": 962.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D747956FD41B0C3"]
+			id: "191A15C44EBD8D48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D38D82B6618B90"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5774CD6EA968BE91"
+				title: "Armadura"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["191A15C44EBD8D48"]
+			id: "39D4CABB121F9927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63F103F1B867065D"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7A346C426166DF91"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:projectile_protection"
+							}]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:durability": 165.0f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55F496A82CD87562"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:projectile_protection"
+							}]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:durability": 240.0f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7369F61683A830FE"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:projectile_protection"
+							}]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 4.0f
+								"tconstruct:durability": 225.0f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38C9A69A7FBA85D7"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:projectile_protection"
+							}]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:durability": 195.0f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "Tinkers Construct"
+}

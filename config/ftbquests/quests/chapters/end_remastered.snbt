@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: "139FFC86F000F225"
+	id: "3273FD9D233FD277"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "70DF12CDC18C716F"
+			tasks: [{
+				id: "073CC2AEB23B37DD"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "End remastered"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7E9EE00653B96A68"
+				"34EE1445E75B2035"
+				"4090CAFAD3003CF9"
+				"08DE10131DC93D10"
+				"713F23A7482C1BBD"
+				"0F8802A372469433"
+				"4D21FE9F3C870FA6"
+				"462B0A748669AE7D"
+				"6807D246C8E67120"
+				"0DB6A72A51670221"
+				"4D21FE9F3C870FA6"
+				"15268D7B7A0D91C9"
+				"2ED7AD5FB878D50B"
+				"7D7D666BCDA07558"
+				"591BB094C88ACC2A"
+				"1F398F313002D402"
+				"6F5325E5CC219CB9"
+			]
+			hide_until_deps_complete: true
+			id: "2F31650182CDE460"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "763B389810918DE2"
+					table_id: 3056314490522756933L
+					team_reward: false
+					type: "loot"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "2CE46D55AA6F53C2"
+					table_id: 502790723344061554L
+					team_reward: false
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "142FE1FED003B6C9"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["462B0A748669AE7D"]
+			id: "6807D246C8E67120"
+			tasks: [{
+				id: "7EA4908783A3B99F"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6807D246C8E67120"]
+			id: "0F8802A372469433"
+			tasks: [{
+				id: "5DEF8F026365E990"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F8802A372469433"]
+			id: "34EE1445E75B2035"
+			tasks: [{
+				id: "1D20C7A5F7D1D017"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34EE1445E75B2035"]
+			id: "0DB6A72A51670221"
+			tasks: [{
+				id: "6786FA1D40DD0411"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E9EE00653B96A68"]
+			id: "08DE10131DC93D10"
+			tasks: [{
+				id: "1BFD98611ED7E2C2"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["462B0A748669AE7D"]
+			id: "15268D7B7A0D91C9"
+			tasks: [{
+				id: "2CE92C1227BCFC06"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15268D7B7A0D91C9"]
+			id: "7E9EE00653B96A68"
+			tasks: [{
+				id: "7E62E1861AA240A6"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["462B0A748669AE7D"]
+			id: "6F5325E5CC219CB9"
+			tasks: [{
+				id: "46F3E17EBF586608"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D21FE9F3C870FA6"]
+			id: "7D7D666BCDA07558"
+			tasks: [{
+				id: "1B16D93BDAE7BAB5"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F5325E5CC219CB9"]
+			id: "4D21FE9F3C870FA6"
+			tasks: [{
+				id: "4F2791352462F2D0"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70DF12CDC18C716F"]
+			hide_until_deps_complete: true
+			id: "462B0A748669AE7D"
+			tasks: [{
+				id: "263A69E171B2B604"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D7D666BCDA07558"]
+			id: "713F23A7482C1BBD"
+			tasks: [{
+				id: "58E0DE2E84EE0EC5"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F5325E5CC219CB9"]
+			id: "4090CAFAD3003CF9"
+			tasks: [{
+				id: "1C4D7E6F3DF11A47"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4090CAFAD3003CF9"]
+			id: "591BB094C88ACC2A"
+			tasks: [{
+				id: "54365405471582A9"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["591BB094C88ACC2A"]
+			id: "1F398F313002D402"
+			tasks: [{
+				id: "2FFB71160CC6E780"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F398F313002D402"]
+			id: "2ED7AD5FB878D50B"
+			tasks: [{
+				id: "7A216F921A724DC3"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "End remastered"
+}

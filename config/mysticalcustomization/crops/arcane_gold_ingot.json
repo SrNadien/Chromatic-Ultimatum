@@ -1,0 +1,13 @@
+{
+    "name": "Arcane Gold Ingot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "eidolon:arcane_gold_block"
+    },
+    "color": "c59e03",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+     }
+  }

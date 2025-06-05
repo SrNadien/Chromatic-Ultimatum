@@ -1,0 +1,62 @@
+{
+	icon: {
+		Count: 1
+		id: "betterfurnacesreforged:extreme_forge"
+		tag: { }
+	}
+	id: "727E102B26313866"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:ultimate_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:diamond_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:gold_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:iron_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:copper_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:extreme_forge"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "betterfurnacesreforged:netherhot_forge"
+				tag: { }
+			}
+		}
+	]
+	title: "Las Forja"
+}

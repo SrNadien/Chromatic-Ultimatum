@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagradditions:prudentium_paxel"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagriculture:prudentium_pickaxe"
+    }
+  ],
+  "pattern": [
+    "ABC",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:prudentium_axe"
+    },
+    "B": {
+      "item": "mysticalagriculture:prudentium_pickaxe"
+    },
+    "C": {
+      "item": "mysticalagriculture:prudentium_shovel"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:prudentium_paxel"
+  }
+}

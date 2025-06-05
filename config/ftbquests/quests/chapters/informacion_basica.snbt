@@ -1,0 +1,499 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "informacion_basica"
+	group: "7BF5279F75E411BC"
+	id: "7A14C0F9D566D0E5"
+	images: [
+		{
+			height: 5.0d
+			image: "custom:textures/chromatcultimatumalt.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 7.4d
+			image: "custom:textures/tquests/menuframe.png"
+			rotation: 0.0d
+			width: 7.905882352941177d
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bienvenido a &5Galaxy Origins &respero disfrutes mucho de este servidor que tanto tiempo le invertimos para que tengas la mejor experiencia"
+				""
+				"&b•&r Aquí encontrarás una comunidad amigable y muchas opciones de personalización para hacer tu experiencia única"
+				""
+				"&6•&r Participa en eventos regulares y mantente atento a las actualizaciones constantes que mantienen el servidor fresco y emocionante"
+				""
+				"&c•&r Nuestro equipo está siempre disponible para ayudarte y asegurarse de que disfrutes cada momento en Galaxy Origins."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2118518208
+							-1698609149
+							-1383017808
+							204096419
+						]
+						Name: "SrNadien"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczNjE4NzkxMjI4MiwKICAicHJvZmlsZUlkIiA6ICI3ZTQ2MDVjMDlhYzE0ODAzYWQ5MGQyYjAwYzJhNDNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTck5hZGllbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGQ2YWQ2MTYyMDBkNzNkZjA4NDUyYWMyYmE1MzVhY2FhMGQ1MmU0ZDhlNWM3YjAwNDg0MjNkNGVhMDE5Nzg0IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NjliN2YyYTFkMDBkMjZmMzBlZmUzZjlhYjlhYzgxN2IxZTZkMzVmNGYzY2ZiMDMyNGVmMmQzMjgyMjNkMzUwIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "0A762F06E21DE0E7"
+			rewards: [
+				{
+					id: "04B2DFF22CB318A8"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "18529ACA735E83CF"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "025B631FD95354BF"
+				title: "Bienvenido A Galaxy Origins"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"Reglas Basicas:"
+				"- No Griefing"
+				"No esta permitido destruir ni modificar las contrucciones de otros jugadores sin su consentimiento."
+				"- No Robar"
+				"No tomes objetos ni recursos de otros jugadores sin permiso."
+				"- No Spam"
+				"Evita el spam en chat, ya sea con mensajes, publicidad o comandos excesivos"
+				"- Respeto Mutuo"
+				"Sé respetuoso con todos los jugadores y con el personal del servidor. No uses lenguaje ofensivo ni discriminatorio"
+				"- Sin Trampas"
+				"No utilices modificaciones o trucos que proporciones ventajas injustas sobre otros jugadores"
+				"- No PVP No Consentido"
+				"No ataques a otros jugadores sin su consentimiento en zonas seguras o pacificas"
+				"- Colaboracion "
+				"Fomenta la colaboracion y la ayuda entre jugadores cuando sea posible"
+				"- Denuncias Y Resolucion De Conflictos"
+				"Si tienes problemas con otro jugador, utiliza el sistema de reporte o comunica tus preocupaciones al personal del servidor em lugar de tomar represalias"
+			]
+			id: "478008474A990B05"
+			rewards: [{
+				id: "061E781AD59368C8"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "650C7B3241A29BCF"
+				title: "Reglas"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: ["Cada misión ha sido creada por el equipo de &o&dMakakoCraft&r&r, diseñadas para que vos puedas avanzar sin necesidad de ser expertos en cada mod."]
+			id: "08E92C36A5B3ADD6"
+			rewards: [{
+				id: "4961696ABF7EA50A"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4683B7E740A17343"
+				title: "Misiones"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: ["La forma de obtener recursos esta adaptada para que el proceso sea divertido pero dificil."]
+			id: "0CD08CC0F69D038B"
+			rewards: [{
+				id: "4E299B2AFC5439EA"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4AC716CC2B2A8CB0"
+				title: "Recursos"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"El &cobjetivo&r &cdel servidor&r es que completes todos los capítulos de las misiones hasta el final del juego."
+				""
+				"Debes seguir el orden para progresar"
+			]
+			id: "50385114BEBD6EF9"
+			rewards: [{
+				id: "78199409F1F4B705"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2170F778D95F3FAC"
+				title: "Objetivo"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"En &3/warp portales&r encontrarás varias dimensiones para explorar y obtener recursos valiosos. "
+				""
+				"¡Prepárate para descubrir lo desconocido y expandir tus fronteras!"
+				""
+				""
+				"&o&8Actualmente desactivado&r&r"
+			]
+			id: "71493E8DF7550748"
+			rewards: [{
+				id: "27FF896D8A74411E"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5EBD2B77E566B60C"
+				title: "Dimensiones"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"Los &6equipos&r pueden tener la cantidad de miembros que deseen. "
+				""
+				"Para crear un equipo, abre tu inventario y busca el ícono en la esquina superior izquierda con tres personas, una &2verde&r, &croja&r y una &9azul&r Haz clic ahí para crear tu equipo, &6asignar un nombre&r, y empezar a invitar a tus compañeros. "
+				""
+				""
+				"Juntos, podrán afrontar desafíos más grandes y compartir recompensas."
+			]
+			id: "45096E6A17C20571"
+			rewards: [
+				{
+					id: "012FC2C89E93BD5E"
+					team_reward: false
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "05F6E5A91CE09129"
+					item: "minecraft:crafting_table"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0053054F77B82F04"
+					item: {
+						Count: 1
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								actuallyadditions: {
+									0: {
+										Count: 1b
+										id: "actuallyadditions:booklet"
+										tag: {
+											Enchantments: [ ]
+										}
+									}
+								}
+								ad_astra: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "ad_astra:astrodux"
+										}
+									}
+								}
+								ae2: {
+									0: {
+										Count: 1b
+										id: "ae2:guide"
+									}
+								}
+								allthemodium: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "allthemodium:allthemodium_book"
+										}
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+									1: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1b
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								cookingforblockheads: {
+									0: {
+										Count: 1b
+										id: "cookingforblockheads:no_filter_edition"
+									}
+								}
+								enchanted: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "enchanted:extraction"
+										}
+									}
+								}
+								extendedcrafting: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "extendedcrafting:guide"
+										}
+									}
+								}
+								immersiveengineering: {
+									0: {
+										Count: 1b
+										id: "immersiveengineering:manual"
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								irons_spellbooks: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "irons_spellbooks:iss_guide_book"
+										}
+									}
+								}
+								naturesaura: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "naturesaura:book"
+										}
+									}
+								}
+								occultism: {
+									0: {
+										Count: 1b
+										id: "occultism:dictionary_of_spirits"
+										tag: {
+											"modonomicon:book_id": "occultism:dictionary_of_spirits"
+										}
+									}
+								}
+								powah: {
+									0: {
+										Count: 1b
+										id: "powah:book"
+									}
+								}
+								rootsclassic: {
+									0: {
+										Count: 1b
+										id: "rootsclassic:runic_tablet"
+									}
+								}
+								tconstruct: {
+									0: {
+										Count: 1b
+										id: "tconstruct:materials_and_you"
+									}
+									1: {
+										Count: 1b
+										id: "tconstruct:puny_smelting"
+									}
+									2: {
+										Count: 1b
+										id: "tconstruct:mighty_smelting"
+									}
+									3: {
+										Count: 1b
+										id: "tconstruct:tinkers_gadgetry"
+									}
+									4: {
+										Count: 1b
+										id: "tconstruct:fantastic_foundry"
+									}
+									5: {
+										Count: 1b
+										id: "tconstruct:encyclopedia"
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7667C652C3C0DF10"
+				title: "Equipos"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"Fundadores:"
+				"&bSrÑadien"
+				"&bITheKingRagnarI"
+				""
+				"Co-Fundadores:"
+				"&bJoanfo"
+				"&bThesamuel345"
+				""
+				""
+				"Dueños Del Servidor:"
+				"&btru &9Les mando un saludo (.,.)/"
+				"&bL4inx"
+				""
+				""
+				"Administradores:"
+				"&b--------"
+			]
+			id: "2E07608C35779D3C"
+			rewards: [{
+				id: "688B11762E87F9F3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "013D995AD1504A60"
+				title: "Creadores"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: [
+				"&3•&r Discord:"
+				""
+				"&e•&r Tienda: tienda.galaxyorigins.com"
+				"           Coloca &e/buy&r"
+				""
+				"&5•&r Pagina Web:"
+				"Proximamente..."
+			]
+			id: "30C214BD60365B32"
+			rewards: [{
+				id: "52754C70E33519C8"
+				team_reward: false
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "101DA00C6A41141D"
+				title: "Discord Y Mas"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A762F06E21DE0E7"]
+			description: ["adicional usa /kit para tu kit peruano "]
+			id: "00B45F5333B24372"
+			rewards: [{
+				count: 64
+				id: "2B30ECCA2158F58E"
+				item: "ultimate_utilities:cajita_feliz"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C8D023AE1480011"
+				title: "eras"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+	title: "Informacion Basica"
+}

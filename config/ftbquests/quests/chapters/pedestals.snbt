@@ -1,0 +1,1303 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "gear"
+	filename: "pedestals"
+	group: "139FFC86F000F225"
+	id: "69A04C8DC3AE65E8"
+	images: [{
+		height: 6.0d
+		image: "custom:textures/pedestals.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: -1.5d
+		y: -11.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7711F1F5019FDFFD"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "785164A89C843392"
+			rewards: [
+				{
+					id: "0F905621B931C7AB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F3D1F51AB38AE5F"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1E249CDB642DECAB"
+				item: {
+					Count: 1
+					id: "pedestals:block_pedestal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7711F1F5019FDFFD"
+			rewards: [
+				{
+					id: "6072CF4FD8AA20F3"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11116AF7711B5564"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "22F918ECB50E003A"
+				item: "pedestals:tool_linkingtool"
+				type: "item"
+			}]
+			title: "Pedestals"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["785164A89C843392"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "09A6736CF070243D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DB2F83079552F56"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+				{
+					id: "2FF9E387FF494434"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "55C67821A6C3ADFA"
+				item: "pedestals:tool_upgradetool"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09A6736CF070243D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3EB2ABB707090097"
+			rewards: [
+				{
+					id: "013529D00340E079"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FBC89FE636504DB"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0F8BC94A94FE303E"
+				item: "pedestals:upgrade_pedestal_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "298D5FE5236D24FA"
+			rewards: [{
+				id: "53BC1C8C3914538F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4A2AAB234C000A6C"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_import"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "76FDCDF4CEAFCA38"
+			rewards: [{
+				id: "763BDF5F441E7DBB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "0CE1FBD1C3A7A08D"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_export"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7B1D3612E2519EF4"
+			rewards: [{
+				id: "650C325F04D9BC03"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5A2BB9301F396C9A"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_breaker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0AA86D68BA6002B4"
+			rewards: [{
+				id: "11E6D211EF760745"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "33DCF58047D71704"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_placer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "482231DDD112BA0D"
+			rewards: [{
+				id: "05B2B488EB0FC9E2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "08C34F2AD317F4AC"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_quarry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "069F5A842A7C6D99"
+			rewards: [{
+				id: "46226D965A65CA7D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4C5045A5240C21A4"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_filler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6249182BF03DA8A9"
+			rewards: [{
+				id: "571B1B7140BF42E9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7F0805B6728D3982"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_chopper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "103D408583E71C28"
+			rewards: [{
+				id: "401F4D4BF97EDA1D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3AC516B93C84EF24"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_harvester"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7E9A7C491DF8C9C9"
+			rewards: [{
+				id: "3D5C56426D70C869"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3F377552B072AFA8"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_fertilizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2ECB15BDDDC09E64"
+			rewards: [{
+				id: "27634855FF1CCCA1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "231CAA8CBE95B637"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_planter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5540162B0D1BA8C4"
+			rewards: [{
+				id: "1747F565E6D7AF0C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5049E895B8EF60BB"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_hiveharvester"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3D2A3FE2826C1ADC"
+			rewards: [{
+				id: "128D594444FECC02"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6166C3BEAE05031E"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_void"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0385E978D0DE8E68"
+			rewards: [{
+				id: "78810E075E953776"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7783DAD356D0F5C6"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_recycler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5F36E5B9616A0894"
+			rewards: [{
+				id: "42A2FE8CED14FAD1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "12A7312DDB5195B7"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_fluidconverter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "457B3FFB09682702"
+			rewards: [{
+				id: "4E8651ABFECF2D72"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "04B07BC7D29FA749"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_dropper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "20C8B2B37ADFA14C"
+			rewards: [{
+				id: "0195865765691002"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "63C6BA7235FBB01A"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_pump"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0F11B196F46D3363"
+			rewards: [{
+				id: "6BB6399E4C0DF9CE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "432FA1605B027C45"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_drain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0D6CCEB70AFAE1D7"
+			rewards: [{
+				id: "5020C3DCD647F9F5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "687596E71F8842D3"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_sheerer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2A6581ECD815DB79"
+			rewards: [{
+				id: "558B35EF9F9ACEC4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "25C94986559D1D71"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_breeder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6D207C830C13FB45"
+			rewards: [{
+				id: "115FACD04BF714EF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "292116AD5216D7B8"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_fan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "72F46739C752251B"
+			rewards: [{
+				id: "09082FF6CA8206C3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2D65A09F255BEABF"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_bottler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "51858D3E2496115D"
+			rewards: [{
+				id: "1A0B776595A73BB7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "429323B76AF09147"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_attacker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "696AD8418A120A06"
+			rewards: [{
+				id: "22D3E6071A918881"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "662B13EE1DD507CF"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_unbottler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6F26E8ED56397D6B"
+			rewards: [{
+				id: "4E5875ABA237B108"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "16C03B53FCEBBF46"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_unpackager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "332417FEF3989D74"
+			rewards: [{
+				id: "23EBC0B3B0DCD3F9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "091BE07E50278E10"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_packager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "77F73A41AA69F154"
+			rewards: [{
+				id: "4F11ED1EA526687A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1B7F4EC995A431E5"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_crafter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0ACD5C3911C31D8F"
+			rewards: [{
+				id: "19BCF2C4238ABA52"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "373597D3140102AE"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_modifications"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "305AC3F20E65706A"
+			rewards: [{
+				id: "0236DCC05C8BBCB3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4A377F093E303BE4"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_smelter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "240EDA8191BB6D5F"
+			rewards: [{
+				id: "3BF9E406B9535ACF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "330B23FEEC1FC705"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_smoker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "12BF2893CE27F079"
+			rewards: [{
+				id: "57D3C2C56DDCBD59"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "62112F027BEB2BA3"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_blaster"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "44B587BF33434BCB"
+			rewards: [{
+				id: "2C930303F16D011C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4858DE516099BF83"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_generator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EB2ABB707090097"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "309710A23B97D6E8"
+			rewards: [{
+				id: "34390E46E65279C9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "33345EA7646A2436"
+				item: {
+					Count: 1
+					id: "pedestals:upgrade_pedestal_cobblegen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["692671C0B4D5B85B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7098B32FDD5D5A45"
+			rewards: [{
+				id: "44F17298E78FE4FC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "62E590D7FE9B1EC1"
+				item: "pedestals:augment_pedestal_roundrobin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["010DA03258CE522B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7E278FB04C84C47F"
+			rewards: [{
+				id: "6851D5ADC6C48587"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "7A43905C29D1570B"
+				item: "pedestals:augment_pedestal_renderdiffuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7098B32FDD5D5A45"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "010DA03258CE522B"
+			rewards: [{
+				id: "2E6D340B8F5A09B0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0954A8E6F0901944"
+				item: "pedestals:augment_pedestal_nocollide"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["692671C0B4D5B85B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6571E53D68CF686E"
+			rewards: [{
+				id: "0FC3F275BC69CCF7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3B88F1838D95838B"
+				item: "pedestals:augment_pedestal_t1_capacity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6571E53D68CF686E"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3B4F6DBD1E579649"
+			rewards: [{
+				id: "30DA74832D04EEDF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "45DDCC47E1D69CC9"
+				item: "pedestals:augment_pedestal_t2_capacity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B4F6DBD1E579649"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "263DE4D465AB349E"
+			rewards: [{
+				id: "3BB80C0EB0CD0477"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E1F7709A8C2DCC2"
+				item: "pedestals:augment_pedestal_t3_capacity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["263DE4D465AB349E"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "322C6DE3D4227455"
+			rewards: [{
+				id: "4E2D028899432EFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60B6941F09B35723"
+				item: "pedestals:augment_pedestal_t4_capacity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["692671C0B4D5B85B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0476E45DF47EB6AB"
+			rewards: [{
+				id: "286B8039DD02130F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "010ACD6202D951B3"
+				item: "pedestals:augment_pedestal_t1_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0476E45DF47EB6AB"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "53C912A9F23DE990"
+			rewards: [{
+				id: "3D5A19B3856DE0FA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "55F4256992A822A7"
+				item: "pedestals:augment_pedestal_t2_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53C912A9F23DE990"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "24335226679F6756"
+			rewards: [{
+				id: "097E835BE36608B3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0FE526BD2CE6AA6D"
+				item: "pedestals:augment_pedestal_t3_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24335226679F6756"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "71776AE0A8F224A9"
+			rewards: [{
+				id: "5CE2701C2E52E99B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5376EF3B519B481D"
+				item: "pedestals:augment_pedestal_t4_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["692671C0B4D5B85B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "274007D0FE5D240A"
+			rewards: [{
+				id: "1388B93554DD6A1A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "751449772033E273"
+				item: "pedestals:augment_pedestal_t1_speed"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["274007D0FE5D240A"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7AA1C1140007E985"
+			rewards: [{
+				id: "5772D502CC584175"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5C42A036AFFFFE95"
+				item: "pedestals:augment_pedestal_t2_speed"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AA1C1140007E985"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "285BC17E1424ED4D"
+			rewards: [{
+				id: "1F6EC81FEE1E04AA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4530E312C96EEA48"
+				item: "pedestals:augment_pedestal_t3_speed"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["285BC17E1424ED4D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6CEB000A40B6183A"
+			rewards: [{
+				id: "71193314F807BDE0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AD5C24FA7392723"
+				item: "pedestals:augment_pedestal_t4_speed"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["692671C0B4D5B85B"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "590276D3B508B713"
+			rewards: [{
+				id: "5E0D1B8B2C8E1AB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "16E2F0573B09A145"
+				item: "pedestals:augment_pedestal_t1_range"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["590276D3B508B713"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "609B142CF17F2B06"
+			rewards: [{
+				id: "560174E25D2B8FA6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7861DD2E0AACCAF3"
+				item: "pedestals:augment_pedestal_t2_range"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["609B142CF17F2B06"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2FACF3BD0EB6031F"
+			rewards: [{
+				id: "5599541B4A327F74"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "71863FA5E457F661"
+				item: "pedestals:augment_pedestal_t3_range"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FACF3BD0EB6031F"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7BEB933078B5752E"
+			rewards: [{
+				id: "79D0190D84130FA5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C8F09CF4A37C741"
+				item: "pedestals:augment_pedestal_t4_range"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29DA271E31600A01"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6910037A3D14F8F6"
+			rewards: [{
+				id: "204F108AFBA387C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26961DBC189F2FC4"
+				item: "pedestals:mechanical_storage_item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6910037A3D14F8F6"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "13875C7A3AE2AFC7"
+			rewards: [{
+				id: "0EBDC865C77764D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2679F34E146FB930"
+				item: "pedestals:mechanical_storage_fluid"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["493DE8ADD9B27605"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "29DA271E31600A01"
+			rewards: [{
+				id: "490694E7A38AB0AF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "380219DC8A631F73"
+				item: "pedestals:mechanical_storage_energy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13875C7A3AE2AFC7"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "65763CD6D01C7F2B"
+			rewards: [{
+				id: "4AD968CE64D4C8AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D0C52B6E761BC40"
+				item: "pedestals:mechanical_storage_xp"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E278FB04C84C47F"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "493DE8ADD9B27605"
+			rewards: [{
+				id: "7D4C01D7E39A5D28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BF762AD757732BE"
+				item: "pedestals:mechanical_storage_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09A6736CF070243D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "692671C0B4D5B85B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A940F791A045946"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "64E4031098FD3810"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "1B5421C30EA3B898"
+					item: "pedestals:tool_augments_storage"
+					type: "item"
+				}
+				{
+					id: "4E360EFCA04712EF"
+					item: "pedestals:tool_augments_range"
+					type: "item"
+				}
+				{
+					id: "35C3BEA7B61A5155"
+					item: "pedestals:tool_augments_diffuser"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+	]
+	title: "Pedestals"
+}
