@@ -8,4 +8,9 @@ Chromatium Ultimatum es un modpack de Minecraft que combina maquinaria avanzada 
 Explora nuevas dimensiones, domina sistemas de energía y descubre conocimientos antiguos para avanzar en una 
 fusión única de tecnología y hechicería. Automatiza tu mundo, controla fuerzas cromáticas y enfréntate a desafíos
 que requieren lógica y magia. Ideal para jugadores que buscan progresión profunda y un endgame rico.
+
+
+
+
+
 [![Promoción ClankyHosting](https://media.forgecdn.net/attachments/description/1145903/description_4985b6bb-4b62-4c62-9772-418d10608ac8.png)](https://clankyhosting.com/cart.php?a=view&promocode=srnadien)
